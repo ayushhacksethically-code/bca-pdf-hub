@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BCA PDF Repository</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="logo">
+                <i class="fas fa-book-open"></i>
+                <h1>BCA PDF Repository</h1>
+            </div>
+            <div class="search-container">
+                <div class="search-box">
+                    <i class="fas fa-search"></i>
+                    <input type="text" id="searchInput" placeholder="Search PDFs by filename, subject, or block...">
+                    <button id="clearSearch" class="clear-btn" title="Clear search">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+                <div class="search-info" id="searchInfo">
+                    Enter at least 2 characters to start searching
+                </div>
+            </div>
+        </header>
+
+        <div class="main-content">
+            <!-- Sidebar -->
+            <aside class="sidebar">
+                <div class="sidebar-header">
+                    <h2><i class="fas fa-graduation-cap"></i> Semesters</h2>
+                </div>
+                <nav class="semester-nav" id="semesterNav">
+                    <!-- Will be populated by JavaScript -->
+                </nav>
+                <div class="sidebar-footer">
+                    <p><i class="fas fa-info-circle"></i> More semesters coming soon</p>
+                </div>
+            </aside>
+
+            <!-- Main Content Area -->
+            <main class="content">
+                <div class="content-header">
+                    <h2 id="contentTitle">1st Semester Subjects</h2>
+                    <div class="view-controls">
+                        <button id="expandAllBtn" class="btn-control">
+                            <i class="fas fa-expand-alt"></i> Expand All
+                        </button>
+                        <button id="collapseAllBtn" class="btn-control">
+                            <i class="fas fa-compress-alt"></i> Collapse All
+                        </button>
+                    </div>
+                </div>
+
+                <div class="subjects-container" id="subjectsContainer">
+                    <!-- Will be populated by JavaScript -->
+                </div>
+
+                <div class="empty-state" id="emptyState">
+                    <i class="fas fa-search fa-3x"></i>
+                    <h3>No PDFs found</h3>
+                    <p>Try adjusting your search query or browse by semester in the sidebar.</p>
+                </div>
+            </main>
+        </div>
+
+        <!-- PDF Viewer Modal -->
+        <div class="modal" id="pdfModal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 id="pdfTitle">PDF Viewer</h3>
+                    <button class="close-modal" id="closeModal">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="pdf-viewer-container">
+                        <iframe id="pdfViewer" title="PDF Viewer"></iframe>
+                    </div>
+                    <div class="pdf-actions">
+                        <a id="downloadPdf" class="btn-download" target="_blank">
+                            <i class="fas fa-download"></i> Download PDF
+                        </a>
+                        <button id="openNewTab" class="btn-open">
+                            <i class="fas fa-external-link-alt"></i> Open in New Tab
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>BCA PDF Repository &copy; <span id="currentYear"></span> | All study materials are for educational purposes</p>
+            <p class="github-link">
+                <i class="fab fa-github"></i> PDFs hosted on GitHub
+            </p>
+        </footer>
+    </div>
+
+    <!-- JavaScript Files -->
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
