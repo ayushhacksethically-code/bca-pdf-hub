@@ -655,23 +655,24 @@ button:focus-visible {
     outline-offset: 2px;
 }
 
-/* --- Optimized Pill-Badge Styling for Course Table Links --- */
-/* Course table links ko pill-shaped badges mein convert karna */
+/* --- Mobile-Optimized Pill-Badge Styling for Course Table Links --- */
 .course-table td a {
     display: inline-block;
     background-color: var(--bg-tertiary);
     color: var(--primary-color);
-    padding: 5px 12px;
-    margin: 3px 2px;
+    padding: 6px 12px;
+    margin: 4px 3px;
     border-radius: 16px;
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 600;
     border: 1px solid var(--border-color);
     text-decoration: none;
     transition: background-color 0.2s ease, color 0.2s ease;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
-/* Optimized Pill-Badge Hover Effect */
 .course-table td a:hover {
     background-color: var(--primary-color);
     color: #ffffff;
@@ -680,8 +681,40 @@ button:focus-visible {
     text-decoration: none;
 }
 
-/* Focus state for accessibility */
 .course-table td a:focus {
     outline: 2px solid var(--accent-color);
     outline-offset: 2px;
+}
+
+/* Tablet optimization */
+@media (max-width: 768px) {
+    .course-table td a {
+        padding: 5px 10px;
+        margin: 4px 2px;
+        font-size: 12px;
+        display: inline-block;
+        word-break: break-word;
+    }
+
+    .course-table td {
+        padding: 8px 10px;
+    }
+}
+
+/* Mobile optimization */
+@media (max-width: 480px) {
+    .course-table td a {
+        padding: 4px 8px;
+        margin: 3px 2px;
+        font-size: 11px;
+        font-weight: 500;
+    }
+
+    .course-table {
+        font-size: 12px;
+    }
+
+    .course-table td {
+        padding: 6px 8px;
+    }
 }
