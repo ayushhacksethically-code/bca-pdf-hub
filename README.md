@@ -5,28 +5,7 @@ A simple web portal serving BCA semester syllabus, resources, assignments, and p
 ## Tech Stack
 - **Frontend**: HTML5, CSS3 (Vanilla CSS with a modern theme)
 - **Backend**: Nim standard library (`asynchttpserver`, `asyncdispatch`)
-
-## Getting Started
-
-### Running the Pre-compiled Server
-If you already have the compiled executable `server` (or compile it yourself), you can run it directly:
-```bash
-./server
-```
-The server will start listening on port `8081`. Open your browser and navigate to `http://localhost:8081`.
-
-### Running with Nim
-If you have Nim installed, you can compile and run the server in a single command:
-```bash
-nim c -r server.nim
-```
-
-### Compiling for Production
-To compile the server with optimization:
-```bash
-nim c -d:release server.nim
-```
-
+  
 ## Directory Structure
 - `index.html`: Main home portal
 - `semester1.html`: 1st Semester resources
