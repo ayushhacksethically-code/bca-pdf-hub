@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operating System Overview & Generations – Cornell Notes</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #f5f5f0;
+            font-family: 'Segoe UI', 'Arial', sans-serif;
+            display: flex;
+            justify-content: center;
+            padding: 2rem 1rem;
+        }
+
+        .cornell-page {
+            max-width: 1000px;
+            width: 100%;
+            background: white;
+            box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+            border: 1px solid #ccc;
+            display: grid;
+            grid-template-columns: 280px 1fr;
+            grid-template-rows: auto auto auto;
+            grid-template-areas:
+                "header header"
+                "cues notes"
+                "summary summary";
+        }
+
+        /* Header */
+        .header {
+            grid-area: header;
+            background: #1e3a5f;
+            color: white;
+            padding: 1.2rem 1.8rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            border-bottom: 3px solid #f4b642;
+        }
+        .header h1 {
+            font-size: 1.8rem;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+        }
+        .header .meta {
+            font-size: 0.9rem;
+            opacity: 0.9;
+            text-align: right;
+        }
+        .header .meta span {
+            display: block;
+            line-height: 1.4;
+        }
+
+        /* Cues column */
+        .cues {
+            grid-area: cues;
+            background: #fdf7e8;
+            padding: 1.5rem 1rem;
+            border-right: 2px dashed #b0a07c;
+        }
+        .cues h2 {
+            font-size: 1.2rem;
+            border-bottom: 2px solid #d9b650;
+            padding-bottom: 0.4rem;
+            margin-bottom: 1.2rem;
+            color: #2c3e50;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        .cue-item {
+            margin-bottom: 1.8rem;
+        }
+        .cue-question {
+            font-weight: 700;
+            color: #5e3c1c;
+            margin-bottom: 0.2rem;
+            font-size: 0.95rem;
+            line-height: 1.4;
+            word-wrap: break-word;
+        }
+        .cue-keyword {
+            font-weight: 600;
+            color: #7f5b3e;
+            background: #fff7e6;
+            padding: 0.1rem 0.3rem;
+            border-radius: 4px;
+            display: inline-block;
+            font-size: 0.9rem;
+            margin-top: 0.2rem;
+        }
+
+        /* Notes column */
+        .notes {
+            grid-area: notes;
+            padding: 1.5rem 1.8rem;
+            background: #ffffff;
+        }
+        .notes h2 {
+            font-size: 1.2rem;
+            border-bottom: 2px solid #1e3a5f;
+            padding-bottom: 0.4rem;
+            margin-bottom: 1.2rem;
+            color: #1e3a5f;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        .note-section {
+            margin-bottom: 1.8rem;
+        }
+        .note-section h3 {
+            font-size: 1.05rem;
+            color: #1e3a5f;
+            background: #e9eff7;
+            padding: 0.3rem 0.6rem;
+            border-left: 4px solid #f4b642;
+            margin: 1.2rem 0 0.6rem;
+            font-weight: 600;
+        }
+        .note-section p, .note-section li {
+            font-size: 0.95rem;
+            line-height: 1.6;
+            color: #2d2d2d;
+            margin-bottom: 0.4rem;
+        }
+        .note-section ul, .note-section ol {
+            margin-left: 1.5rem;
+            margin-bottom: 0.6rem;
+        }
+        .note-section ul li, .note-section ol li {
+            margin-bottom: 0.25rem;
+        }
+        .highlight-box {
+            background: #fef9e7;
+            border: 1px solid #e6d5a8;
+            padding: 0.8rem 1rem;
+            border-radius: 6px;
+            margin: 1rem 0;
+        }
+        .definition {
+            background: #f2f6fc;
+            padding: 0.8rem 1rem;
+            border-left: 5px solid #1e3a5f;
+            margin: 0.8rem 0;
+        }
+
+        /* Summary */
+        .summary {
+            grid-area: summary;
+            background: #eaf0f9;
+            padding: 1.2rem 1.8rem;
+            border-top: 3px solid #f4b642;
+        }
+        .summary h2 {
+            font-size: 1.2rem;
+            color: #1e3a5f;
+            margin-bottom: 0.5rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        .summary p {
+            font-size: 0.95rem;
+            line-height: 1.6;
+            color: #1e2b3c;
+        }
+
+        @media (max-width: 750px) {
+            .cornell-page {
+                grid-template-columns: 1fr;
+                grid-template-areas:
+                    "header"
+                    "cues"
+                    "notes"
+                    "summary";
+            }
+            .cues {
+                border-right: none;
+                border-bottom: 2px dashed #b0a07c;
+            }
+        }
+
+        @media print {
+            body {
+                background: white;
+                padding: 0;
+            }
+            .cornell-page {
+                box-shadow: none;
+                border: 1px solid #aaa;
+                max-width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="cornell-page">
+        <!-- HEADER -->
+        <div class="header">
+            <h1>🖥️ Operating System: Overview, Goals & Generations</h1>
+            <div class="meta">
+                <span><strong>Unit:</strong> Introduction to OS & Process Management</span>
+                <span><strong>Sections:</strong> 1.1–1.5 (0th Generation)</span>
+                <span><strong>Medium:</strong> English (Hindi native)</span>
+            </div>
+        </div>
+
+        <!-- CUES (Left Column) -->
+        <div class="cues">
+            <h2>🧠 Cues & Keywords</h2>
+
+            <div class="cue-item">
+                <div class="cue-question">Two main software categories?</div>
+                <div class="cue-keyword">Application vs System Software</div>
+            </div>
+
+            <div class="cue-item">
+                <div class="cue-question">Define application software + examples</div>
+                <div class="cue-keyword">Spreadsheets, DB, DTP, games</div>
+            </div>
+
+            <div class="cue-item">
+                <div class="cue-question">System software role & most important type?</div>
+                <div class="cue-keyword">Interface hardware–application; OS</div>
+            </div>
+
+            <div class="cue-item">
+                <div class="cue-question">Define an Operating System</div>
+                <div class="cue-keyword">Collection of programs, interface user↔hardware</div>
+            </div>
+
+            <div class="cue-item">
+                <div class="cue-question">Four main components of a computer system</div>
+                <div class="cue-keyword">Hardware, OS, Application software, Users</div>
+            </div>
+
+            <div class="cue-item">
+                <div class="cue-question">OS as a resource allocator – which resources?</div>
+                <div class="cue-keyword">CPU time, memory, storage, I/O devices</div>
+            </div>
+
+            <div class="cue-item">
+                <div class="cue-question">Two basic purposes of an OS</div>
+                <div class="cue-keyword">1. Resource allocation & control<br>2. Interface for programmer</div>
+            </div>
+
+            <div class="cue-item">
+                <div class="cue-question">Functions an effective OS should accomplish</div>
+                <div class="cue-keyword">Command interpreter, I/O routines, file security, compiler access, loader, CPU scheduling, etc.</div>
+            </div>
+
+            <div class="cue-item">
+                <div class="cue-question">Abstract view of system components (Figure 1)</div>
+                <div class="cue-keyword">Users → Application → OS → Hardware</div>
+            </div>
+
+            <div class="cue-item">
+                <div class="cue-question">Primary and secondary goals of an OS</div>
+                <div class="cue-keyword">1. Make computer convenient<br>2. Use hardware efficiently</div>
+            </div>
+
+            <div class="cue-item">
+                <div class="cue-question">What characterizes the 0th generation?</div>
+                <div class="cue-keyword">Vacuum tubes, no OS, open-shop, machine language</div>
+            </div>
+
+            <div class="cue-item">
+                <div class="cue-question">Important early computers (0th gen)</div>
+                <div class="cue-keyword">Analytical Engine, Mark I, ENIAC, EDVAC (stored program)</div>
+            </div>
+        </div>
+
+        <!-- NOTES (Right Column) -->
+        <div class="notes">
+            <h2>📘 Detailed Notes</h2>
+
+            <!-- Introduction (1.1) -->
+            <div class="note-section">
+                <h3>1.1 Software Categories</h3>
+                <p><strong>Application Software:</strong> Programs that perform specific tasks for users. Designed to solve a particular problem. Examples: spreadsheets, database systems, desktop publishing, program development software, games.</p>
+                <p><strong>System Software:</strong> More transparent to users; provides a general programming environment where programmers create applications. Offers functions not available at hardware level and manages execution of application programs. Acts as an <em>interface</em> between computer hardware and application software.</p>
+                <p><strong>The most important type of system software is the Operating System (OS).</strong></p>
+            </div>
+
+            <!-- OS Definition & Resource Manager (1.2) -->
+            <div class="note-section">
+                <h3>1.2 Operating System – Core Definition</h3>
+                <div class="definition">
+                    <p><strong>Operating System (OS):</strong> A collection of programs that acts as an interface between the user of a computer and the computer hardware. Its purpose is to provide an environment in which a user may execute programs.</p>
+                </div>
+                <p><strong>OS as a Resource Manager:</strong> Main resource is computer hardware – processors, storage, I/O devices, communication devices, data. The OS manages these and allocates them to programs and users. Many requests may conflict, so OS decides fairly and efficiently.</p>
+                <p><strong>Some OS functions (resource management view):</strong></p>
+                <ul>
+                    <li>Implementing the user interface</li>
+                    <li>Sharing hardware among users</li>
+                    <li>Allowing users to share data</li>
+                    <li>Preventing users from interfering with one another</li>
+                    <li>Scheduling resources among users</li>
+                    <li>Facilitating input/output</li>
+                    <li>Recovering from errors</li>
+                    <li>Accounting for resource usage</li>
+                    <li>Facilitating parallel operations</li>
+                    <li>Organizing data for secure and rapid access</li>
+                    <li>Handling network communications</li>
+                </ul>
+            </div>
+
+            <!-- Section 1.3: What is an OS? Expanded -->
+            <div class="note-section">
+                <h3>1.3 What is an Operating System? – Expanded</h3>
+                <p><strong>Four main components of a computer system:</strong></p>
+                <ol>
+                    <li><strong>Hardware</strong> – provides basic computing resources (CPU, memory, I/O).</li>
+                    <li><strong>Operating System</strong> – controls and coordinates use of hardware among applications and users.</li>
+                    <li><strong>Application Software</strong> – defines how hardware resources are used to solve user problems.</li>
+                    <li><strong>Users</strong> – people, machines, or other computers.</li>
+                </ol>
+                <div class="highlight-box">
+                    <p><strong>Abstract View (Figure 1):</strong> Users ↔ Application Software ↔ Operating System ↔ Hardware. The OS sits between users/applications and the bare machine.</p>
+                </div>
+                <p><strong>OS as a Resource Allocator:</strong> Computer resources (CPU time, memory, file storage, I/O) are allocated to programs and users. The OS must resolve conflicting requests fairly and efficiently.</p>
+                <p><strong>OS as a Control Program:</strong> Controls execution of user programs to prevent errors and improper use. Protects system and users from interference.</p>
+
+                <h3>Two Basic Purposes of an Operating System</h3>
+                <div class="definition">
+                    <ol>
+                        <li><strong>Resource allocation and control:</strong> Control the allocation and use of computing system resources among users and tasks.</li>
+                        <li><strong>Interface for programmer:</strong> Provide an interface between hardware and programmer that simplifies creation, coding, debugging, and maintenance of application programs.</li>
+                    </ol>
+                </div>
+
+                <h3>Functions an Effective OS Should Accomplish</h3>
+                <ul>
+                    <li><strong>Command interpreter:</strong> Provide a user-friendly environment (shell, GUI).</li>
+                    <li><strong>Communication:</strong> Facilitate communication with other users (networking).</li>
+                    <li><strong>File management:</strong> Directory/file creation with security option.</li>
+                    <li><strong>I/O handling:</strong> Provide routines that handle intricate I/O programming details.</li>
+                    <li><strong>Compiler access:</strong> Provide access to compilers to translate high-level languages to machine code.</li>
+                    <li><strong>Loader:</strong> Supply a loader program to move compiled code into memory for execution.</li>
+                    <li><strong>CPU scheduling:</strong> Ensure fair and non-interfering CPU access when several processes are active.</li>
+                    <li><strong>Storage & device allocation:</strong> Manage memory and device allocation.</li>
+                    <li><strong>Long-term storage:</strong> Provide for long-term storage of user information as files.</li>
+                    <li><strong>Resource sharing & protection:</strong> Share resources when appropriate and protect from unauthorized or mischievous intervention.</li>
+                </ul>
+                <p><em>Note: Systems programs (editors, translators, utilities like sort and file transfer) are not usually considered part of the OS, but the OS provides access to them.</em></p>
+            </div>
+
+            <!-- 1.4 Goals of an Operating System -->
+            <div class="note-section">
+                <h3>1.4 Goals of an Operating System</h3>
+                <p>The primary objective of a computer is to execute instructions efficiently and increase productivity of processing resources (hardware, software, users). Maximum CPU utilization is the main objective because the CPU is the core execution device.</p>
+                <div class="definition">
+                    <p><strong>Primary Goal:</strong> Make the computer convenient to use.</p>
+                    <p><strong>Secondary Goal:</strong> Use the hardware in an efficient manner.</p>
+                </div>
+                <p>In short: convenience first, efficiency second.</p>
+            </div>
+
+            <!-- 1.5 Generations of Operating Systems – 0th Generation -->
+            <div class="note-section">
+                <h3>1.5 Generations of Operating Systems</h3>
+                <p>Operating systems have evolved alongside hardware/architecture. We examine successive generations of computers to understand their operating systems. Five distinct generations are characterized by hardware component technology, software development, and mode of delivery of computer services.</p>
+
+                <h3>1.5.1 0th Generation (Pre-commercial era)</h3>
+                <p><strong>Time period:</strong> Predated commercial production and sale of computers. Dates back to Charles Babbage's Analytical Engine, and later machines: John Atanasoff's computer (1940), Mark I (Howard Aiken & IBM, 1944), ENIAC (Eckert & Mauchly, University of Pennsylvania), and EDVAC (1944-46 by Von Neumann, Burks, Goldstine). EDVAC was the first to fully implement the stored program concept and serial execution of instructions.</p>
+                <p><strong>Hardware technology:</strong> Electronic vacuum tubes.</p>
+                <p><strong>Operating system:</strong> <strong>No operating system existed.</strong> Early programs were written in machine language and each contained code for initiating operation of the computer itself.</p>
+                <p><strong>Mode of operation:</strong> “Open-shop” – users signed up for computer time. When a user's time arrived, the entire computer system was turned over to that user. The individual programmer was responsible for all machine setup, operation, clean-up, and preparation for the next user.</p>
+                <p><strong>Drawback:</strong> The system was clearly inefficient and dependent on the varying competencies of the individual programmer as operators.</p>
+                <p><em>EDVAC set the stage for the evolution of commercial computing and operating system software.</em></p>
+            </div>
+
+            <!-- Objectives (from unit intro) -->
+            <div class="note-section">
+                <h3>📌 Unit Objectives (These notes cover)</h3>
+                <ul>
+                    <li>Understand the purpose of an operating system.</li>
+                    <li>Describe general goals of an OS.</li>
+                    <li>Discuss evolution of operating systems (0th generation).</li>
+                    <li>Describe various functions performed by the OS.</li>
+                    <li>(Later sections will cover further generations, types, and structures.)</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- SUMMARY -->
+        <div class="summary">
+            <h2>📋 Summary</h2>
+            <p>
+                Software divides into <strong>application</strong> (user problem solvers) and <strong>system software</strong>. The <strong>Operating System</strong> is the core system software, acting as interface between hardware and users/applications. It is both a <em>resource allocator</em> (managing CPU, memory, storage, I/O) and a <em>control program</em> (preventing errors). An effective OS provides a user interface, I/O handling, CPU scheduling, file management, security, and supports program development.
+            </p>
+            <p>
+                <strong>Goals:</strong> Primary – make the computer convenient to use; Secondary – use hardware efficiently.
+                <strong>Generations:</strong> The 0th generation (vacuum tubes, pre-OS) used an open-shop mode with no operating system. Users programmed in machine language and managed the entire machine themselves, leading to inefficiency. EDVAC introduced the stored program concept, paving the way for future OS evolution.
+            </p>
+        </div>
+    </div>
+</body>
+</html>

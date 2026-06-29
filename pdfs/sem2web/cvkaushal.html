@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaushal Kumar Rajak - Resume</title>
+    <style>
+        /* Base Reset */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
+            font-size: 10.5pt;
+            line-height: 1.4;
+            color: #333333;
+            background-color: #f0f2f5;
+        }
+
+        /* A4 Page Setup */
+        .page {
+            width: 210mm;
+            height: 297mm;
+            margin: 20px auto;
+            padding: 12mm 15mm;
+            background-color: #ffffff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+
+        /* Updated Left-Aligned Header Layout */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+            border-bottom: 2px solid #1b365d;
+            padding-bottom: 8px;
+            margin-bottom: 16px;
+        }
+        .header-left h1 {
+            font-size: 24pt;
+            font-weight: 700;
+            color: #111111;
+            line-height: 1.1;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+        }
+        .contact-info {
+            font-size: 9.5pt;
+            color: #444444;
+            text-align: right;
+            line-height: 1.5;
+        }
+
+        /* Two-Column Grid */
+        .grid-container {
+            display: grid;
+            grid-template-columns: 32% 64%; 
+            gap: 4%;
+            height: calc(100% - 75px);
+        }
+
+        /* Headings */
+        h2 {
+            font-size: 12pt;
+            color: #1b365d;
+            text-transform: uppercase;
+            border-bottom: 1px solid #1b365d;
+            padding-bottom: 2px;
+            margin-top: 0;
+            margin-bottom: 8px;
+            letter-spacing: 0.5px;
+        }
+        h3 {
+            font-size: 10.5pt;
+            font-weight: 700;
+            color: #111111;
+            margin-bottom: 2px;
+        }
+
+        /* Section Layouts */
+        section {
+            margin-bottom: 14px;
+        }
+        .item {
+            margin-bottom: 10px;
+        }
+        .item-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 2px;
+        }
+        .date {
+            font-size: 9.5pt;
+            font-style: italic;
+            color: #555555;
+            white-space: nowrap;
+        }
+        .institution {
+            font-weight: 600;
+            color: #444444;
+            font-size: 9.5pt;
+        }
+
+        /* Lists */
+        ul {
+            padding-left: 14px;
+            margin-bottom: 0;
+        }
+        li {
+            margin-bottom: 4px;
+            text-align: justify;
+            font-size: 9.5pt;
+        }
+
+        /* Objective block */
+        .objective-text {
+            text-align: justify;
+            font-size: 9.5pt;
+            margin-bottom: 14px;
+        }
+
+        /* Skills specific */
+        .skills-list {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        .skills-list li {
+            margin-bottom: 8px;
+            text-align: left;
+            font-size: 9.5pt;
+        }
+        .skill-category {
+            font-weight: 700;
+            display: block;
+            margin-bottom: 2px;
+            color: #111111;
+        }
+
+        /* Print Styles */
+        @media print {
+            @page {
+                size: A4 portrait;
+                margin: 0;
+            }
+            body {
+                background-color: #ffffff;
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+            }
+            .page {
+                margin: 0;
+                box-shadow: none;
+                width: 210mm;
+                height: 297mm;
+                padding: 12mm 15mm;
+                page-break-after: avoid;
+                page-break-inside: avoid;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="page">
+    <!-- Updated Header: Name on Left, Details on Right -->
+    <header>
+        <div class="header-left">
+            <h1>Kaushal Kumar Rajak</h1>
+        </div>
+        <div class="contact-info">
+            <div>Bhatpara, West Bengal</div>
+            <div>+91 9831294758</div>
+            <div>kaushalrajak9831@gmail.com</div>
+        </div>
+    </header>
+
+    <!-- Main Grid Layout -->
+    <main class="grid-container">
+        
+        <!-- LEFT COLUMN (Narrow) -->
+        <aside class="left-col">
+            
+            <!-- Education Section -->
+            <section>
+                <h2>Education</h2>
+                <div class="item">
+                    <h3>Diploma in Electrical Eng.</h3>
+                    <div class="institution">JIS School of Polytechnic</div>
+                    <div class="date">Expected: May 2027</div>
+                    <ul style="list-style-type: none; padding-left: 0;">
+                        <li>• Completed 4 of 6 Semesters</li>
+                    </ul>
+                </div>
+                <div class="item">
+                    <h3>12th Standard (WBCHSE)</h3>
+                    <div class="institution">Kankinara Arya Vidyalaya</div>
+                    <div class="date">2024</div>
+                    <ul style="list-style-type: none; padding-left: 0;">
+                        <li>• Percentage: 68.4%</li>
+                    </ul>
+                </div>
+                <div class="item">
+                    <h3>10th Standard (WBSSE)</h3>
+                    <div class="institution">Kankinara Arya Vidyalaya</div>
+                    <div class="date">2022</div>
+                    <ul style="list-style-type: none; padding-left: 0;">
+                        <li>• Percentage: 53.0%</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Technical Skills Section -->
+            <section>
+                <h2>Technical Skills</h2>
+                <ul class="skills-list">
+                    <li>
+                        <span class="skill-category">Industrial Automation:</span>
+                        PLC Programming (Ladder Logic), Siemens S7-1200 Configuration, Siemens TIA Portal, Sequential Control, I/O Interlocking.
+                    </li>
+                    <li>
+                        <span class="skill-category">Core Electrical:</span>
+                        Circuit analysis, Electrical Machines (Motors, Transformers), Switchgear, Control Panel Wiring, Panel Testing Equipment (Multimeters, Megger).
+                    </li>
+                    <li>
+                        <span class="skill-category">Software:</span>
+                        MS Office (Excel for data tracking, Word).
+                    </li>
+                </ul>
+            </section>
+
+            <!-- Soft Skills Section -->
+            <section>
+                <h2>Soft Skills</h2>
+                <ul>
+                    <li>Industrial Safety Awareness</li>
+                    <li>Logical Troubleshooting & Diagnostics</li>
+                    <li>Teamwork & Project Collaboration</li>
+                    <li>Quick Technical Adaptability</li>
+                    <li>Leadership</li>
+                </ul>
+            </section>
+
+        </aside>
+
+        <!-- RIGHT COLUMN (Wide) -->
+        <section class="right-col">
+            
+            <!-- Objective Section -->
+            <section>
+                <h2>Professional Objective</h2>
+                <div class="objective-text">
+                    Results-driven Diploma in Electrical Engineering student (4th semester, graduating May 2027) seeking a Junior Engineer role in core electrical operations and industrial automation. Brings hands-on programming experience with Siemens S7-1200 PLCs via TIA Portal, complemented by structured MSME industrial exposure. Demonstrates strong foundational knowledge across 4 semesters in circuit analysis, electrical machines, and control systems.
+                </div>
+            </section>
+
+            <!-- Projects Section -->
+            <section>
+                <h2>Technical Projects</h2>
+                
+                <div class="item">
+                    <div class="item-header">
+                        <h3>Automated 4‑Way Traffic Light Controller</h3>
+                    </div>
+                    <ul>
+                        <li>Programmed a Siemens S7‑1200 PLC using TIA Portal to sequence traffic lights for a four‑junction intersection.</li>
+                        <li>Developed timer‑based state transitions with Ladder Diagram (LD) to precisely control red, yellow, and green phases.</li>
+                        <li>Implemented interlocking logic preventing simultaneous green signals across conflicting directions, eliminating collision hazards.</li>
+                        <li>Simulated and validated cycle timings, achieving fail‑safe operation with zero logic conflicts.</li>
+                    </ul>
+                </div>
+
+                <div class="item">
+                    <div class="item-header">
+                        <h3>Waste‑to‑Energy Generation Prototype</h3>
+                    </div>
+                    <ul>
+                        <li>Designed a compact system converting waste material energy into usable electrical current using a miniature generator assembly.</li>
+                        <li>Executed complete wiring setup, integrating generator output with measurement instruments.</li>
+                        <li>Tracked real‑time voltage outputs under varying load conditions, analyzing conversion efficiency.</li>
+                        <li>Reinforced proper insulation and connection safety to prevent shorts in the low-voltage prototype stage.</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Industrial Exposure Section -->
+            <section>
+                <h2>Industrial Exposure</h2>
+                <div class="item">
+                    <div class="item-header">
+                        <h3>Industrial Visit — MSME Technology Centre</h3>
+                        <span class="date">West Bengal</span>
+                    </div>
+                    <ul>
+                        <li>Participated in a structured industrial visit to observe real-world deployment of advanced manufacturing, automation tools, and industrial power distribution arrays.</li>
+                        <li>Aligned classroom theoretical knowledge of relay logic and control panels with live factory floor standards and industry best practices.</li>
+                    </ul>
+                </div>
+            </section>
+
+        </section>
+    </main>
+</div>
+
+</body>
+</html>

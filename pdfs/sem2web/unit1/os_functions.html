@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operating System: Complete Overview – Cornell Notes</title>
+    <!-- Link to external CSS file (style.css) as previously created -->
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <div class="cornell-page">
+        <!-- HEADER -->
+        <div class="header">
+            <h1>🖥️ Operating System: Complete Unit Overview</h1>
+            <div class="meta">
+                <span><strong>Unit:</strong> Introduction to OS & Process Management</span>
+                <span><strong>Sections:</strong> 1.1 – 1.8 (Complete)</span>
+                <span><strong>Medium:</strong> English (Hindi native)</span>
+            </div>
+        </div>
+
+        <!-- CUES (Left Column) – Comprehensive for entire unit -->
+        <div class="cues">
+            <h2>🧠 Cues & Keywords</h2>
+
+            <div class="cue-item">
+                <div class="cue-question">Two main software categories?</div>
+                <div class="cue-keyword">Application vs System Software</div>
+            </div>
+            <div class="cue-item">
+                <div class="cue-question">Define OS – basic purposes?</div>
+                <div class="cue-keyword">Interface user↔hardware, resource allocator, control program</div>
+            </div>
+            <div class="cue-item">
+                <div class="cue-question">Four system components?</div>
+                <div class="cue-keyword">Hardware, OS, Application software, Users</div>
+            </div>
+            <div class="cue-item">
+                <div class="cue-question">Primary & secondary OS goals?</div>
+                <div class="cue-keyword">Convenience, efficient hardware use</div>
+            </div>
+            <div class="cue-item">
+                <div class="cue-question">0th generation characteristics?</div>
+                <div class="cue-keyword">No OS, vacuum tubes, open‑shop, machine language, EDVAC stored program</div>
+            </div>
+            <div class="cue-item">
+                <div class="cue-question">1st generation (1951‑56) – key points?</div>
+                <div class="cue-keyword">Closed shop, mono‑programmed OS, batch, control cards, IPL, FORTRAN</div>
+            </div>
+            <div class="cue-item">
+                <div class="cue-question">2nd generation (1956‑64) – major innovations?</div>
+                <div class="cue-keyword">Transistors, data channel, interrupts, I/O overlap, spooling, CTSS</div>
+            </div>
+            <div class="cue-item">
+                <div class="cue-question">3rd generation (1964‑79) – hallmarks?</div>
+                <div class="cue-keyword">ICs, IBM System/360, multiprogramming, HASP, time‑sharing, privileged instructions</div>
+            </div>
+            <div class="cue-item">
+                <div class="cue-question">Three main OS types by user interaction?</div>
+                <div class="cue-keyword">Batch, Time‑sharing, Real‑time</div>
+            </div>
+            <div class="cue-item">
+                <div class="cue-question">Multiprogramming vs multiprocessing?</div>
+                <div class="cue-keyword">Multiprogramming: multiple programs in memory; Multiprocessing: multiple CPUs</div>
+            </div>
+            <div class="cue-item">
+                <div class="cue-question">Network OS vs Distributed OS?</div>
+                <div class="cue-keyword">Network: users aware of nodes; Distributed: single system image, transparency</div>
+            </div>
+            <div class="cue-item">
+                <div class="cue-question">Desirable OS qualities (four areas)?</div>
+                <div class="cue-keyword">Usability, Facilities, Cost, Adaptability</div>
+            </div>
+            <div class="cue-item">
+                <div class="cue-question">DOS, UNIX, Windows, Mac – unique traits?</div>
+                <div class="cue-keyword">DOS: first PC; UNIX: open, C; Windows: networking; Mac: first GUI</div>
+            </div>
+            <div class="cue-item">
+                <div class="cue-question">Eight core functions of an OS?</div>
+                <div class="cue-keyword">Process, Memory, Secondary Storage, I/O, File, Protection, Networking, Command Interp.</div>
+            </div>
+            <div class="cue-item">
+                <div class="cue-question">Process management activities?</div>
+                <div class="cue-keyword">Create/delete, suspend/resume, synchronization, deadlock handling</div>
+            </div>
+            <div class="cue-item">
+                <div class="cue-question">Memory management responsibilities?</div>
+                <div class="cue-keyword">Track usage, load processes, allocate/deallocate</div>
+            </div>
+            <div class="cue-item">
+                <div class="cue-question">File management tasks?</div>
+                <div class="cue-keyword">File/dir creation, mapping, backup, protection</div>
+            </div>
+            <div class="cue-item">
+                <div class="cue-question">Purpose of command interpreter?</div>
+                <div class="cue-keyword">Shell – interface between user and system</div>
+            </div>
+        </div>
+
+        <!-- NOTES (Right Column) – All sections complete -->
+        <div class="notes">
+            <h2>📘 Complete Unit Notes (Sections 1.1 – 1.8)</h2>
+
+            <!-- Introduction & Basics (1.1 – 1.3) -->
+            <div class="note-section">
+                <h3>1.1 – 1.3: Software, OS Definition & Purpose</h3>
+                <p><strong>Application Software:</strong> User‑focused problem solvers (spreadsheets, DB, games). <strong>System Software:</strong> Provides programming environment; OS is the most important.</p>
+                <p><strong>Operating System:</strong> A collection of programs acting as interface between user and hardware. Its purpose: provide an environment to execute programs.</p>
+                <p><strong>Four Components:</strong> Hardware (CPU, memory, I/O) → OS → Application Software → Users.</p>
+                <p><strong>Two Basic Purposes:</strong> 1. Resource allocation & control. 2. Simplify program creation, debugging, maintenance.</p>
+                <p><strong>Functions:</strong> Command interpreter, communication, file management, I/O routines, compiler access, loading, CPU scheduling, storage allocation, long‑term file storage, resource sharing & protection.</p>
+                <p><strong>Abstract View (Figure 1):</strong> Users ↔ Application ↔ OS ↔ Hardware.</p>
+            </div>
+
+            <!-- 1.4 Goals -->
+            <div class="note-section">
+                <h3>1.4 Goals of an OS</h3>
+                <p><strong>Primary:</strong> Make the computer convenient to use.<br><strong>Secondary:</strong> Use the hardware efficiently (maximize CPU utilization).</p>
+            </div>
+
+            <!-- Generations (1.5) -->
+            <div class="note-section">
+                <h3>1.5 Generations of Operating Systems</h3>
+                <p><strong>0th Gen:</strong> No OS, vacuum tubes, open‑shop. EDVAC introduced stored program concept.</p>
+                <p><strong>1st Gen (1951‑56):</strong> Vacuum tubes. Closed shop, hired operators. Mono‑programmed batch OS with control cards, resident kernel, job scheduler. IPL from tape. FORTRAN (1956). Problems: CPU idle during I/O, no protection.</p>
+                <p><strong>2nd Gen (1956‑64):</strong> Transistors. Data channel → I/O buffering & overlap. Interrupts replaced polling, extended to time‑outs. Spooling (card→tape→disk). Disk‑oriented systems emerged, virtual machine concept. CTSS time‑sharing experiment.</p>
+                <p><strong>3rd Gen (1964‑79):</strong> ICs, IBM System/360. Multiprogramming via HASP spooling (system reader/writer). Static priority preemptive dispatching. Hardware: relocation, storage protection, privileged instructions. Time‑sharing (up to 200 terminals). OS became a major computing discipline.</p>
+            </div>
+
+            <!-- Types of OS (1.5) -->
+            <div class="note-section">
+                <h3>1.5 Types of Operating Systems</h3>
+                <p><strong>Batch:</strong> Jobs collected, no user interaction, turnaround time.</p>
+                <p><strong>Time‑sharing:</strong> Multiple concurrent interactive users, response &lt; few seconds.</p>
+                <p><strong>Real‑time (RTOS):</strong> Immediate response to external events; airlines, nuclear plant. Very little UI; guaranteed execution time.</p>
+                <p><strong>Multiprogramming:</strong> Multiple active programs in memory simultaneously. Time‑sharing is a form of multiprogramming.</p>
+                <p><strong>Multiprocessing:</strong> Hardware with more than one CPU.</p>
+                <p><strong>Network OS:</strong> Interconnected computers; users aware of remote machines, remote login/file access.</p>
+                <p><strong>Distributed OS:</strong> Appears as single uni‑processor system; transparent job and file location, complex scheduling for parallelism.</p>
+                <p><strong>Embedded OS:</strong> For devices (PDAs, phones). Examples: Palm OS, Windows CE, Java OS, Nexus Conix.</p>
+            </div>
+
+            <!-- 1.6 Desirable Qualities -->
+            <div class="note-section">
+                <h3>1.6 Desirable Qualities of OS</h3>
+                <p><strong>Usability:</strong> Robustness, consistency, proportionality, convenience, powerful high‑level facilities.</p>
+                <p><strong>Facilities:</strong> Sufficient, complete, appropriate for intended use.</p>
+                <p><strong>Cost:</strong> Low cost, efficient algorithms (space/time tradeoffs), low overhead (idle time minimal), low maintenance.</p>
+                <p><strong>Adaptability:</strong> Tailored to environment, changeable over time (new devices, users), extensible (new features look like old).</p>
+            </div>
+
+            <!-- 1.7 Examples -->
+            <div class="note-section">
+                <h3>1.7 Operating System Examples</h3>
+                <p><strong>DOS:</strong> First widely‑installed PC OS, single‑user, command‑line, underlying Windows 3.1–ME, emulated in NT/2000/XP.</p>
+                <p><strong>UNIX:</strong> Written in C, open systems, kernel + file system + shell. Many variants (Solaris, Linux, AIX). Over 600 commands; Motif GUI.</p>
+                <p><strong>Windows:</strong> Success due to built‑in networking; de facto standard with Office. Complexity and compatibility issues exist, but improved resilience in 2000/XP.</p>
+                <p><strong>Macintosh:</strong> First widely‑sold PC with GUI (1984); icons, mouse, windows. Mac OS X, PowerPC. Popular in graphic design (≈5% market).</p>
+                <p><strong>User Classes:</strong> Command language users (shell) and system call users (runtime calls in programs).</p>
+            </div>
+
+            <!-- 1.8 Functions of OS – detailed -->
+            <div class="note-section">
+                <h3>1.8 Functions of an Operating System</h3>
+                <p>The main functions are:</p>
+                <ol>
+                    <li>Process Management</li>
+                    <li>Memory Management</li>
+                    <li>Secondary Storage Management</li>
+                    <li>I/O Management</li>
+                    <li>File Management</li>
+                    <li>Protection</li>
+                    <li>Networking Management</li>
+                    <li>Command Interpretation</li>
+                </ol>
+
+                <h3>1.8.1 Process Management</h3>
+                <p>A <strong>process</strong> is a program in execution (batch job, time‑shared program, system task like spooling). The OS handles:</p>
+                <ul>
+                    <li>Creation and deletion of user & system processes.</li>
+                    <li>Suspension and resumption of processes.</li>
+                    <li>Mechanisms for process synchronization.</li>
+                    <li>Mechanisms for deadlock handling.</li>
+                </ul>
+                <p><em>(Further study: Unit‑2 of this course)</em></p>
+
+                <h3>1.8.2 Memory Management</h3>
+                <p>Memory is a large array of addressable words/bytes. CPU fetches and stores data via reads/writes. OS responsibilities:</p>
+                <ul>
+                    <li>Track which parts of memory are in use and by whom.</li>
+                    <li>Decide which processes to load when memory becomes available.</li>
+                    <li>Allocate and deallocate memory space as needed.</li>
+                </ul>
+                <p>Choice of memory management scheme depends on hardware design. <em>(Detailed in Block‑2, Unit‑1)</em></p>
+
+                <h3>1.8.3 Secondary Storage Management</h3>
+                <p>Main memory is too small; programs/data stored on disk. Disks are primary on‑line storage. OS manages:</p>
+                <ul>
+                    <li>Free space management.</li>
+                    <li>Storage allocation.</li>
+                    <li>Disk scheduling.</li>
+                </ul>
+                <p>Tapes are sequential and slower, used for infrequent files. <em>(Block‑2, Unit‑3)</em></p>
+
+                <h3>1.8.4 I/O Management</h3>
+                <p>OS hides device peculiarities from users. In UNIX, I/O system hides them even from the bulk of the OS. OS provides:</p>
+                <ul>
+                    <li>A buffer caching system.</li>
+                    <li>General device driver code activation.</li>
+                    <li>Specific driver software for each hardware device.</li>
+                </ul>
+                <p><em>(Block‑2, Unit‑3)</em></p>
+
+                <h3>1.8.5 File Management</h3>
+                <p>OS provides a uniform logical view of information storage, abstracting physical devices. A <strong>file</strong> is a logical storage unit (sequence of bits/bytes/records). OS responsibilities:</p>
+                <ul>
+                    <li>Creation and deletion of files.</li>
+                    <li>Creation and deletion of directories.</li>
+                    <li>Primitives for manipulating files and directories.</li>
+                    <li>Mapping files onto disk storage.</li>
+                    <li>Backup of files on stable storage.</li>
+                    <li>Protection and security of files.</li>
+                </ul>
+
+                <h3>1.8.6 Protection</h3>
+                <p>Protection ensures that only authorized processes access resources. Mechanisms include:</p>
+                <ul>
+                    <li>Memory addressing hardware – restricts process to its own address space.</li>
+                    <li>Timer – prevents CPU monopoly.</li>
+                    <li>No direct I/O for user processes – protects devices.</li>
+                </ul>
+                <p>Protection controls access to resources and improves reliability by detecting errors at interfaces. Early detection prevents contamination. <em>(Block‑3, Unit‑4)</em></p>
+
+                <h3>1.8.7 Networking</h3>
+                <p>A distributed system is a set of processors without shared memory or clock; each has local memory, communicating via lines. The communication network design must address routing, connection, and security. Benefits: resource sharing, computation speed‑up, data availability, reliability.</p>
+
+                <h3>1.8.8 Command Interpretation</h3>
+                <p>The <strong>command interpreter</strong> is the primary user interface. In batch, it's the control card interpreter; in time‑sharing, the shell (UNIX). It reads and executes control statements. Commands deal with process management, I/O, secondary storage, memory, file system, protection, and networking.</p>
+                <div class="highlight-box">
+                    <p><strong>Figure 2:</strong> The OS coordinates all these functions – process, memory, storage, I/O, file, protection, networking, and command interpretation – to present a cohesive system to the user.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- SUMMARY -->
+        <div class="summary">
+            <h2>📋 Final Summary of the Unit</h2>
+            <p>
+                The operating system is the core system software, serving as interface, resource allocator, and control program. Its goals are convenience and efficient hardware use.
+                Evolution moved from no OS (0th gen, open‑shop) through batch mono‑programmed systems (1st gen), interrupts and spooling (2nd gen), to multiprogramming and time‑sharing (3rd gen).
+                OS types include <strong>Batch, Time‑sharing, Real‑time</strong>, and specialised forms like <strong>Multiprogramming, Multiprocessing, Network, Distributed, and Embedded</strong> systems.
+                Qualities focus on usability, facilities, cost, and adaptability. Popular systems: DOS, UNIX, Windows, Macintosh.
+                The eight core functions—<strong>Process, Memory, Secondary Storage, I/O, File, Protection, Networking, and Command Interpretation</strong>—together manage all hardware resources, provide user interfaces, and ensure secure, efficient computing.
+                This complete set of notes covers the full introduction to operating systems for exam preparation.
+            </p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,87 @@
+{
+  "cacheVersion": "D20240927T193831",
+  "outputFile": "/home/narayanas/Documents/BCA/bcapdf/bca-pdf-hub-main/assignment/pdfs/2nd_Semester/MCSL-205/example",
+  "outputLastModificationTime": "",
+  "compile": [
+    [
+      "/home/narayanas/Documents/BCA/bcapdf/bca-pdf-hub-main/assignment/pdfs/2nd_Semester/MCSL-205/nim_csource_code/@psystem@sexceptions.nim.c",
+      "gcc -c  -w -fmax-errors=3 -fno-strict-aliasing -pthread   -I/home/narayanas/.choosenim/toolchains/nim-2.2.10/lib -I/home/narayanas/Documents/BCA/bcapdf/bca-pdf-hub-main/assignment/pdfs/2nd_Semester/MCSL-205 -o /home/narayanas/Documents/BCA/bcapdf/bca-pdf-hub-main/assignment/pdfs/2nd_Semester/MCSL-205/nim_csource_code/@psystem@sexceptions.nim.c.o /home/narayanas/Documents/BCA/bcapdf/bca-pdf-hub-main/assignment/pdfs/2nd_Semester/MCSL-205/nim_csource_code/@psystem@sexceptions.nim.c"
+    ],
+    [
+      "/home/narayanas/Documents/BCA/bcapdf/bca-pdf-hub-main/assignment/pdfs/2nd_Semester/MCSL-205/nim_csource_code/@pstd@sprivate@sdigitsutils.nim.c",
+      "gcc -c  -w -fmax-errors=3 -fno-strict-aliasing -pthread   -I/home/narayanas/.choosenim/toolchains/nim-2.2.10/lib -I/home/narayanas/Documents/BCA/bcapdf/bca-pdf-hub-main/assignment/pdfs/2nd_Semester/MCSL-205 -o /home/narayanas/Documents/BCA/bcapdf/bca-pdf-hub-main/assignment/pdfs/2nd_Semester/MCSL-205/nim_csource_code/@pstd@sprivate@sdigitsutils.nim.c.o /home/narayanas/Documents/BCA/bcapdf/bca-pdf-hub-main/assignment/pdfs/2nd_Semester/MCSL-205/nim_csource_code/@pstd@sprivate@sdigitsutils.nim.c"
+    ],
+    [
+      "/home/narayanas/Documents/BCA/bcapdf/bca-pdf-hub-main/assignment/pdfs/2nd_Semester/MCSL-205/nim_csource_code/@pstd@sassertions.nim.c",
+      "gcc -c  -w -fmax-errors=3 -fno-strict-aliasing -pthread   -I/home/narayanas/.choosenim/toolchains/nim-2.2.10/lib -I/home/narayanas/Documents/BCA/bcapdf/bca-pdf-hub-main/assignment/pdfs/2nd_Semester/MCSL-205 -o /home/narayanas/Documents/BCA/bcapdf/bca-pdf-hub-main/assignment/pdfs/2nd_Semester/MCSL-205/nim_csource_code/@pstd@sassertions.nim.c.o /home/narayanas/Documents/BCA/bcapdf/bca-pdf-hub-main/assignment/pdfs/2nd_Semester/MCSL-205/nim_csource_code/@pstd@sassertions.nim.c"
+    ],
+    [
+      "/home/narayanas/Documents/BCA/bcapdf/bca-pdf-hub-main/assignment/pdfs/2nd_Semester/MCSL-205/nim_csource_code/@psystem@sdollars.nim.c",
+      "gcc -c  -w -fmax-errors=3 -fno-strict-aliasing -pthread   -I/home/narayanas/.choosenim/toolchains/nim-2.2.10/lib -I/home/narayanas/Documents/BCA/bcapdf/bca-pdf-hub-main/assignment/pdfs/2nd_Semester/MCSL-205 -o /home/narayanas/Documents/BCA/bcapdf/bca-pdf-hub-main/assignment/pdfs/2nd_Semester/MCSL-205/nim_csource_code/@psystem@sdollars.nim.c.o /home/narayanas/Documents/BCA/bcapdf/bca-pdf-hub-main/assignment/pdfs/2nd_Semester/MCSL-205/nim_csource_code/@psystem@sdollars.nim.c"
+    ],
+    [
+      "/home/narayanas/Documents/BCA/bcapdf/bca-pdf-hub-main/assignment/pdfs/2nd_Semester/MCSL-205/nim_csource_code/@pstd@ssyncio.nim.c",
+      "gcc -c  -w -fmax-errors=3 -fno-strict-aliasing -pthread   -I/home/narayanas/.choosenim/toolchains/nim-2.2.10/lib -I/home/narayanas/Documents/BCA/bcapdf/bca-pdf-hub-main/assignment/pdfs/2nd_Semester/MCSL-205 -o /home/narayanas/Documents/BCA/bcapdf/bca-pdf-hub-main/assignment/pdfs/2nd_Semester/MCSL-205/nim_csource_code/@pstd@ssyncio.nim.c.o /home/narayanas/Documents/BCA/bcapdf/bca-pdf-hub-main/assignment/pdfs/2nd_Semester/MCSL-205/nim_csource_code/@pstd@ssyncio.nim.c"
+    ],
+    [
+      "/home/narayanas/Documents/BCA/bcapdf/bca-pdf-hub-main/assignment/pdfs/2nd_Semester/MCSL-205/nim_csource_code/@psystem.nim.c",
+      "gcc -c  -w -fmax-errors=3 -fno-strict-aliasing -pthread   -I/home/narayanas/.choosenim/toolchains/nim-2.2.10/lib -I/home/narayanas/Documents/BCA/bcapdf/bca-pdf-hub-main/assignment/pdfs/2nd_Semester/MCSL-205 -o /home/narayanas/Documents/BCA/bcapdf/bca-pdf-hub-main/assignment/pdfs/2nd_Semester/MCSL-205/nim_csource_code/@psystem.nim.c.o /home/narayanas/Documents/BCA/bcapdf/bca-pdf-hub-main/assignment/pdfs/2nd_Semester/MCSL-205/nim_csource_code/@psystem.nim.c"
+    ],
+    [
+      "/home/narayanas/Documents/BCA/bcapdf/bca-pdf-hub-main/assignment/pdfs/2nd_Semester/MCSL-205/nim_csource_code/@pparseutils.nim.c",
+      "gcc -c  -w -fmax-errors=3 -fno-strict-aliasing -pthread   -I/home/narayanas/.choosenim/toolchains/nim-2.2.10/lib -I/home/narayanas/Documents/BCA/bcapdf/bca-pdf-hub-main/assignment/pdfs/2nd_Semester/MCSL-205 -o /home/narayanas/Documents/BCA/bcapdf/bca-pdf-hub-main/assignment/pdfs/2nd_Semester/MCSL-205/nim_csource_code/@pparseutils.nim.c.o /home/narayanas/Documents/BCA/bcapdf/bca-pdf-hub-main/assignment/pdfs/2nd_Semester/MCSL-205/nim_csource_code/@pparseutils.nim.c"
+    ],
+    [
+      "/home/narayanas/Documents/BCA/bcapdf/bca-pdf-hub-main/assignment/pdfs/2nd_Semester/MCSL-205/nim_csource_code/@pmath.nim.c",
+      "gcc -c  -w -fmax-errors=3 -fno-strict-aliasing -pthread   -I/home/narayanas/.choosenim/toolchains/nim-2.2.10/lib -I/home/narayanas/Documents/BCA/bcapdf/bca-pdf-hub-main/assignment/pdfs/2nd_Semester/MCSL-205 -o /home/narayanas/Documents/BCA/bcapdf/bca-pdf-hub-main/assignment/pdfs/2nd_Semester/MCSL-205/nim_csource_code/@pmath.nim.c.o /home/narayanas/Documents/BCA/bcapdf/bca-pdf-hub-main/assignment/pdfs/2nd_Semester/MCSL-205/nim_csource_code/@pmath.nim.c"
+    ],
+    [
+      "/home/narayanas/Documents/BCA/bcapdf/bca-pdf-hub-main/assignment/pdfs/2nd_Semester/MCSL-205/nim_csource_code/@punicode.nim.c",
+      "gcc -c  -w -fmax-errors=3 -fno-strict-aliasing -pthread   -I/home/narayanas/.choosenim/toolchains/nim-2.2.10/lib -I/home/narayanas/Documents/BCA/bcapdf/bca-pdf-hub-main/assignment/pdfs/2nd_Semester/MCSL-205 -o /home/narayanas/Documents/BCA/bcapdf/bca-pdf-hub-main/assignment/pdfs/2nd_Semester/MCSL-205/nim_csource_code/@punicode.nim.c.o /home/narayanas/Documents/BCA/bcapdf/bca-pdf-hub-main/assignment/pdfs/2nd_Semester/MCSL-205/nim_csource_code/@punicode.nim.c"
+    ],
+    [
+      "/home/narayanas/Documents/BCA/bcapdf/bca-pdf-hub-main/assignment/pdfs/2nd_Semester/MCSL-205/nim_csource_code/@pstrutils.nim.c",
+      "gcc -c  -w -fmax-errors=3 -fno-strict-aliasing -pthread   -I/home/narayanas/.choosenim/toolchains/nim-2.2.10/lib -I/home/narayanas/Documents/BCA/bcapdf/bca-pdf-hub-main/assignment/pdfs/2nd_Semester/MCSL-205 -o /home/narayanas/Documents/BCA/bcapdf/bca-pdf-hub-main/assignment/pdfs/2nd_Semester/MCSL-205/nim_csource_code/@pstrutils.nim.c.o /home/narayanas/Documents/BCA/bcapdf/bca-pdf-hub-main/assignment/pdfs/2nd_Semester/MCSL-205/nim_csource_code/@pstrutils.nim.c"
+    ],
+    [
+      "/home/narayanas/Documents/BCA/bcapdf/bca-pdf-hub-main/assignment/pdfs/2nd_Semester/MCSL-205/nim_csource_code/@psequtils.nim.c",
+      "gcc -c  -w -fmax-errors=3 -fno-strict-aliasing -pthread   -I/home/narayanas/.choosenim/toolchains/nim-2.2.10/lib -I/home/narayanas/Documents/BCA/bcapdf/bca-pdf-hub-main/assignment/pdfs/2nd_Semester/MCSL-205 -o /home/narayanas/Documents/BCA/bcapdf/bca-pdf-hub-main/assignment/pdfs/2nd_Semester/MCSL-205/nim_csource_code/@psequtils.nim.c.o /home/narayanas/Documents/BCA/bcapdf/bca-pdf-hub-main/assignment/pdfs/2nd_Semester/MCSL-205/nim_csource_code/@psequtils.nim.c"
+    ],
+    [
+      "/home/narayanas/Documents/BCA/bcapdf/bca-pdf-hub-main/assignment/pdfs/2nd_Semester/MCSL-205/nim_csource_code/@pstrformat.nim.c",
+      "gcc -c  -w -fmax-errors=3 -fno-strict-aliasing -pthread   -I/home/narayanas/.choosenim/toolchains/nim-2.2.10/lib -I/home/narayanas/Documents/BCA/bcapdf/bca-pdf-hub-main/assignment/pdfs/2nd_Semester/MCSL-205 -o /home/narayanas/Documents/BCA/bcapdf/bca-pdf-hub-main/assignment/pdfs/2nd_Semester/MCSL-205/nim_csource_code/@pstrformat.nim.c.o /home/narayanas/Documents/BCA/bcapdf/bca-pdf-hub-main/assignment/pdfs/2nd_Semester/MCSL-205/nim_csource_code/@pstrformat.nim.c"
+    ],
+    [
+      "/home/narayanas/Documents/BCA/bcapdf/bca-pdf-hub-main/assignment/pdfs/2nd_Semester/MCSL-205/nim_csource_code/@mexample.nim.c",
+      "gcc -c  -w -fmax-errors=3 -fno-strict-aliasing -pthread   -I/home/narayanas/.choosenim/toolchains/nim-2.2.10/lib -I/home/narayanas/Documents/BCA/bcapdf/bca-pdf-hub-main/assignment/pdfs/2nd_Semester/MCSL-205 -o /home/narayanas/Documents/BCA/bcapdf/bca-pdf-hub-main/assignment/pdfs/2nd_Semester/MCSL-205/nim_csource_code/@mexample.nim.c.o /home/narayanas/Documents/BCA/bcapdf/bca-pdf-hub-main/assignment/pdfs/2nd_Semester/MCSL-205/nim_csource_code/@mexample.nim.c"
+    ]
+  ],
+  "link": [
+    "/home/narayanas/Documents/BCA/bcapdf/bca-pdf-hub-main/assignment/pdfs/2nd_Semester/MCSL-205/nim_csource_code/@psystem@sexceptions.nim.c.o",
+    "/home/narayanas/Documents/BCA/bcapdf/bca-pdf-hub-main/assignment/pdfs/2nd_Semester/MCSL-205/nim_csource_code/@pstd@sprivate@sdigitsutils.nim.c.o",
+    "/home/narayanas/Documents/BCA/bcapdf/bca-pdf-hub-main/assignment/pdfs/2nd_Semester/MCSL-205/nim_csource_code/@pstd@sassertions.nim.c.o",
+    "/home/narayanas/Documents/BCA/bcapdf/bca-pdf-hub-main/assignment/pdfs/2nd_Semester/MCSL-205/nim_csource_code/@psystem@sdollars.nim.c.o",
+    "/home/narayanas/Documents/BCA/bcapdf/bca-pdf-hub-main/assignment/pdfs/2nd_Semester/MCSL-205/nim_csource_code/@pstd@ssyncio.nim.c.o",
+    "/home/narayanas/Documents/BCA/bcapdf/bca-pdf-hub-main/assignment/pdfs/2nd_Semester/MCSL-205/nim_csource_code/@psystem.nim.c.o",
+    "/home/narayanas/Documents/BCA/bcapdf/bca-pdf-hub-main/assignment/pdfs/2nd_Semester/MCSL-205/nim_csource_code/@pparseutils.nim.c.o",
+    "/home/narayanas/Documents/BCA/bcapdf/bca-pdf-hub-main/assignment/pdfs/2nd_Semester/MCSL-205/nim_csource_code/@pmath.nim.c.o",
+    "/home/narayanas/Documents/BCA/bcapdf/bca-pdf-hub-main/assignment/pdfs/2nd_Semester/MCSL-205/nim_csource_code/@punicode.nim.c.o",
+    "/home/narayanas/Documents/BCA/bcapdf/bca-pdf-hub-main/assignment/pdfs/2nd_Semester/MCSL-205/nim_csource_code/@pstrutils.nim.c.o",
+    "/home/narayanas/Documents/BCA/bcapdf/bca-pdf-hub-main/assignment/pdfs/2nd_Semester/MCSL-205/nim_csource_code/@psequtils.nim.c.o",
+    "/home/narayanas/Documents/BCA/bcapdf/bca-pdf-hub-main/assignment/pdfs/2nd_Semester/MCSL-205/nim_csource_code/@pstrformat.nim.c.o",
+    "/home/narayanas/Documents/BCA/bcapdf/bca-pdf-hub-main/assignment/pdfs/2nd_Semester/MCSL-205/nim_csource_code/@mexample.nim.c.o"
+  ],
+  "linkcmd": "gcc   -o /home/narayanas/Documents/BCA/bcapdf/bca-pdf-hub-main/assignment/pdfs/2nd_Semester/MCSL-205/example /home/narayanas/Documents/BCA/bcapdf/bca-pdf-hub-main/assignment/pdfs/2nd_Semester/MCSL-205/nim_csource_code/@psystem@sexceptions.nim.c.o /home/narayanas/Documents/BCA/bcapdf/bca-pdf-hub-main/assignment/pdfs/2nd_Semester/MCSL-205/nim_csource_code/@pstd@sprivate@sdigitsutils.nim.c.o /home/narayanas/Documents/BCA/bcapdf/bca-pdf-hub-main/assignment/pdfs/2nd_Semester/MCSL-205/nim_csource_code/@pstd@sassertions.nim.c.o /home/narayanas/Documents/BCA/bcapdf/bca-pdf-hub-main/assignment/pdfs/2nd_Semester/MCSL-205/nim_csource_code/@psystem@sdollars.nim.c.o /home/narayanas/Documents/BCA/bcapdf/bca-pdf-hub-main/assignment/pdfs/2nd_Semester/MCSL-205/nim_csource_code/@pstd@ssyncio.nim.c.o /home/narayanas/Documents/BCA/bcapdf/bca-pdf-hub-main/assignment/pdfs/2nd_Semester/MCSL-205/nim_csource_code/@psystem.nim.c.o /home/narayanas/Documents/BCA/bcapdf/bca-pdf-hub-main/assignment/pdfs/2nd_Semester/MCSL-205/nim_csource_code/@pparseutils.nim.c.o /home/narayanas/Documents/BCA/bcapdf/bca-pdf-hub-main/assignment/pdfs/2nd_Semester/MCSL-205/nim_csource_code/@pmath.nim.c.o /home/narayanas/Documents/BCA/bcapdf/bca-pdf-hub-main/assignment/pdfs/2nd_Semester/MCSL-205/nim_csource_code/@punicode.nim.c.o /home/narayanas/Documents/BCA/bcapdf/bca-pdf-hub-main/assignment/pdfs/2nd_Semester/MCSL-205/nim_csource_code/@pstrutils.nim.c.o /home/narayanas/Documents/BCA/bcapdf/bca-pdf-hub-main/assignment/pdfs/2nd_Semester/MCSL-205/nim_csource_code/@psequtils.nim.c.o /home/narayanas/Documents/BCA/bcapdf/bca-pdf-hub-main/assignment/pdfs/2nd_Semester/MCSL-205/nim_csource_code/@pstrformat.nim.c.o /home/narayanas/Documents/BCA/bcapdf/bca-pdf-hub-main/assignment/pdfs/2nd_Semester/MCSL-205/nim_csource_code/@mexample.nim.c.o  -pthread -pthread -lm -lm   -ldl",
+  "extraCmds": [],
+  "configFiles": [
+    "/home/narayanas/.choosenim/toolchains/nim-2.2.10/config/nim.cfg",
+    "/home/narayanas/.choosenim/toolchains/nim-2.2.10/config/config.nims"
+  ],
+  "stdinInput": false,
+  "projectIsCmd": false,
+  "cmdInput": "",
+  "currentDir": "/home/narayanas/Documents/BCA/bcapdf/bca-pdf-hub-main/assignment/pdfs/2nd_Semester/MCSL-205",
+  "cmdline": "",
+  "depfiles": [],
+  "nimexe": ""
+}

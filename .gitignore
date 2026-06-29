@@ -1,0 +1,7 @@
+# Editor & OS temporary files
+*.swp
+.DS_Store
+Thumbs.db
+
+# Build / Compile outputs
+/server

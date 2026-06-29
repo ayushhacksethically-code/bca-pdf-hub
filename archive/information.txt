@@ -1,0 +1,1148 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BCA PDF Hub - All Semesters</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <table class="page-wrapper" cellpadding="0" cellspacing="0">
+        <tr>
+            <td class="header-container" colspan="2">
+                <h1>BCA PDF Hub</h1>
+                <div class="subtitle">All Semesters Index</div>
+            </td>
+        </tr>
+        <tr>
+            <td class="main-content">
+                <h2>Available Semesters</h2>
+
+                <table class="semester-table">
+                    <tr>
+                        <th width="15%">Semester</th>
+                        <th>Courses</th>
+                        <th width="15%">Link</th>
+                    </tr>
+                    <tr>
+                        <td>1st Semester</td>
+                        <td>Mathematics, Computer Basics and PC Software, Computer Basics Lab, English at the Workplace, Environmental Studies</td>
+                        <td><a href="semester1.html">View →</a></td>
+                    </tr>
+                    <tr>
+                        <td>2nd Semester</td>
+                        <td>Foundation Course in English-2, Data and File Structures, Assembly Language Programming, Operating Systems</td>
+                        <td><a href="semester2.html">View →</a></td>
+                    </tr>
+                    <!-- <tr>
+                        <td>3rd Semester</td>
+                        <td>Object Oriented Programming (C++), Database Management Systems, Computer Networks, Software Engineering</td>
+                        <td><a href="#">Coming Soon</a></td>
+                    </tr>
+                    <tr>
+                        <td>4th Semester</td>
+                        <td>Java Programming, Web Technologies, Cloud Computing, Cyber Security</td>
+                        <td><a href="#">Coming Soon</a></td>
+                    </tr>
+                    <tr>
+                        <td>5th Semester</td>
+                        <td>Advanced Web Development, Mobile Application Development, Project Work I</td>
+                        <td><a href="#">Coming Soon</a></td>
+                    </tr>
+                    <tr>
+                        <td>6th Semester</td>
+                        <td>Artificial Intelligence, Machine Learning, Project Work II</td>
+                        <td><a href="#">Coming Soon</a></td>
+                    </tr>-->
+                </table>
+
+                <!-- Info box -->
+                <div class="info-box">
+                    <h3>About This Archive</h3>
+                    <p>Currently, only 1st Semester and 2nd Semester are fully populated with PDF links.</p>
+                    <p>More semesters will be added soon. Stay tuned!</p>
+                </div>
+            </td>
+
+            <!-- Sidebar -->
+            <td class="sidebar">
+                <div class="sidebar-section">
+                    <h3>Quick Links</h3>
+                    <ul class="nav-list">
+                        <li><a href="skills.html">Linked Skill Course Stack→</a></li>
+                        <li><a href="notes/notes.html">Notes</a></li>
+                        <li><a href="semester1.html">1st Semester PDFs →</a></li>
+                        <li><a href="semester2.html">2nd Semester</a></li>
+                        <li><a href="#">3rd Semester (Soon)</a></li>
+                        <li><a href="#">4th Semester (Soon)</a></li>
+                        <li><a href="#">5th Semester (Soon)</a></li>
+                        <li><a href="#">6th Semester (Soon)</a></li>
+                    </ul>
+                </div>
+
+                <div class="sidebar-section">
+                    <h3>Site Info</h3>
+                    <ul class="notes-list">
+                        <li>Text-heavy, minimal aesthetic</li>
+                        <li>Fast loading, no bloat</li>
+                        <li>Student-maintained</li>
+                    </ul>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td class="footer" colspan="2">
+                BCA PDF Hub – a simple, student-maintained academic index.<br>
+                <span class="footer-sub">&copy; 2026 BCA PDF Hub. All rights reserved.</span>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BCA PDF Hub - 1st Semester Academic Index</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Main container -->
+    <table class="page-wrapper" cellpadding="0" cellspacing="0">
+        <tr>
+            <td class="header-container" colspan="2">
+                <h1>BCA PDF Hub</h1>
+                <div class="subtitle">First Semester Academic Resources</div>
+            </td>
+        </tr>
+        <tr>
+            <td class="main-content">
+                <h2>1st Semester</h2>
+
+                <!-- BCS-012 Mathematics -->
+                <table class="course-table" cellpadding="4" cellspacing="0">
+                    <tr class="course-header">
+                        <td colspan="2"><strong>BCS-012 Mathematics</strong></td>
+                    </tr>
+                    <tr class="block-header">
+                        <td width="40%"><strong>Block</strong></td>
+                        <td><strong>Units</strong></td>
+                    </tr>
+                    <tr>
+                        <td>Block-1 Algebra-I</td>
+                        <td>
+                            <a href="https://egyankosh.ac.in/bitstream/123456789/10973/1/Unit-1.pdf" target="_blank">Unit-1</a> |
+                            <a href="pdfs/1st_Semester/BCS-012 Mathematics/Block-1 Algebra-I/Unit-2.pdf" target="_blank">Unit-2</a> |
+                            <a href="pdfs/1st_Semester/BCS-012 Mathematics/Block-1 Algebra-I/Unit-3.pdf" target="_blank">Unit-3</a> |
+                            <a href="pdfs/1st_Semester/BCS-012 Mathematics/Block-1 Algebra-I/Unit-4.pdf" target="_blank">Unit-4</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Block-2 Algebra-II</td>
+                        <td>
+                            <a href="pdfs/1st_Semester/BCS-012 Mathematics/Block-2 Algebra-II/Unit-1.pdf" target="_blank">Unit-1</a> |
+                            <a href="pdfs/1st_Semester/BCS-012 Mathematics/Block-2 Algebra-II/Unit-2.pdf" target="_blank">Unit-2</a> |
+                            <a href="pdfs/1st_Semester/BCS-012 Mathematics/Block-2 Algebra-II/Unit-3.pdf" target="_blank">Unit-3</a> |
+                            <a href="pdfs/1st_Semester/BCS-012 Mathematics/Block-2 Algebra-II/Unit-4.pdf" target="_blank">Unit-4</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Block-3 Calculus</td>
+                        <td>
+                            <a href="pdfs/1st_Semester/BCS-012 Mathematics/Block-3 Calculus/Unit-1.pdf" target="_blank">Unit-1</a> |
+                            <a href="pdfs/1st_Semester/BCS-012 Mathematics/Block-3 Calculus/Unit-2.pdf" target="_blank">Unit-2</a> |
+                            <a href="pdfs/1st_Semester/BCS-012 Mathematics/Block-3 Calculus/Unit-3.pdf" target="_blank">Unit-3</a> |
+                            <a href="pdfs/1st_Semester/BCS-012 Mathematics/Block-3 Calculus/Unit-4.pdf" target="_blank">Unit-4</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Block-4 Vectors and Three-Dimensional Geometry</td>
+                        <td>
+                            <a href="pdfs/1st_Semester/BCS-012 Mathematics/Block-4 Vectors and Three-Dimensional Geometry/Unit-1.pdf" target="_blank">Unit-1</a> |
+                            <a href="pdfs/1st_Semester/BCS-012 Mathematics/Block-4 Vectors and Three-Dimensional Geometry/Unit-2.pdf" target="_blank">Unit-2</a> |
+                            <a href="pdfs/1st_Semester/BCS-012 Mathematics/Block-4 Vectors and Three-Dimensional Geometry/Unit-3.pdf" target="_blank">Unit-3</a> |
+                            <a href="pdfs/1st_Semester/BCS-012 Mathematics/Block-4 Vectors and Three-Dimensional Geometry/Unit-4.pdf" target="_blank">Unit-4</a>
+                        </td>
+                    </tr>
+                </table>
+
+                <!-- BCS-111 Computer Basics and PC Software -->
+                <table class="course-table" cellpadding="4" cellspacing="0">
+                    <tr class="course-header">
+                        <td colspan="2"><strong>BCS-111 Computer Basics and PC Software</strong></td>
+                    </tr>
+                    <tr class="block-header">
+                        <td width="40%"><strong>Block</strong></td>
+                        <td><strong>Units</strong></td>
+                    </tr>
+                    <tr>
+                        <td>Block 1 Basics of Computer Hardware</td>
+                        <td>
+                            <a href="pdfs/1st_Semester/BCS-111 Computer Basics and PC Software/Block 1 Basics of Computer Hardware/UNIT-1.pdf" target="_blank">UNIT 1</a> |
+                            <a href="pdfs/1st_Semester/BCS-111 Computer Basics and PC Software/Block 1 Basics of Computer Hardware/UNIT-2.pdf" target="_blank">UNIT 2</a> |
+                            <a href="pdfs/1st_Semester/BCS-111 Computer Basics and PC Software/Block 1 Basics of Computer Hardware/UNIT-3.pdf" target="_blank">UNIT 3</a> |
+                            <a href="pdfs/1st_Semester/BCS-111 Computer Basics and PC Software/Block 1 Basics of Computer Hardware/UNIT-4.pdf" target="_blank">UNIT 4</a> |
+                            <a href="pdfs/1st_Semester/BCS-111 Computer Basics and PC Software/Block 1 Basics of Computer Hardware/UNIT-5.pdf" target="_blank">UNIT 5</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Block 2 Basics of Computer Software</td>
+                        <td>
+                            <a href="pdfs/1st_Semester/BCS-111 Computer Basics and PC Software/Block 2 Basics of Computer Software/UNIT-1.pdf" target="_blank">UNIT 1</a> |
+                            <a href="pdfs/1st_Semester/BCS-111 Computer Basics and PC Software/Block 2 Basics of Computer Software/UNIT-2.pdf" target="_blank">UNIT 2</a> |
+                            <a href="pdfs/1st_Semester/BCS-111 Computer Basics and PC Software/Block 2 Basics of Computer Software/UNIT-3.pdf" target="_blank">UNIT 3</a> |
+                            <a href="pdfs/1st_Semester/BCS-111 Computer Basics and PC Software/Block 2 Basics of Computer Software/UNIT-4.pdf" target="_blank">UNIT 4</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Block 3 Internet Technologies</td>
+                        <td>
+                            <a href="pdfs/1st_Semester/BCS-111 Computer Basics and PC Software/Block 3 Internet Technologies/UNIT-1.pdf" target="_blank">UNIT 1</a> |
+                            <a href="pdfs/1st_Semester/BCS-111 Computer Basics and PC Software/Block 3 Internet Technologies/UNIT-2.pdf" target="_blank">UNIT 2</a> |
+                            <a href="pdfs/1st_Semester/BCS-111 Computer Basics and PC Software/Block 3 Internet Technologies/UNIT-3.pdf" target="_blank">UNIT 3</a>
+                        </td>
+                    </tr>
+                </table>
+
+                <!-- BCSL-013 Computer Basics and PC Software Lab -->
+                <table class="course-table" cellpadding="4" cellspacing="0">
+                    <tr class="course-header">
+                        <td colspan="2"><strong>BCSL-013 Computer Basics and PC Software Lab</strong></td>
+                    </tr>
+                    <tr class="block-header">
+                        <td width="40%"><strong>Block</strong></td>
+                        <td><strong>Units</strong></td>
+                    </tr>
+                    <tr>
+                        <td>Block-1 Lab Course</td>
+                        <td>
+                            <a href="pdfs/1st_Semester/BCSL-013 Computer Basics and PC Software Lab/Block-1 Lab Course/UNIT-1.pdf" target="_blank">UNIT 1</a> |
+                            <a href="pdfs/1st_Semester/BCSL-013 Computer Basics and PC Software Lab/Block-1 Lab Course/UNIT-2.pdf" target="_blank">UNIT 2</a> |
+                            <a href="pdfs/1st_Semester/BCSL-013 Computer Basics and PC Software Lab/Block-1 Lab Course/UNIT-3.pdf" target="_blank">UNIT 3</a> |
+                            <a href="pdfs/1st_Semester/BCSL-013 Computer Basics and PC Software Lab/Block-1 Lab Course/UNIT-4.pdf" target="_blank">UNIT 4</a> |
+                            <a href="pdfs/1st_Semester/BCSL-013 Computer Basics and PC Software Lab/Block-1 Lab Course/UNIT-5.pdf" target="_blank">UNIT 5</a> |
+                            <a href="pdfs/1st_Semester/BCSL-013 Computer Basics and PC Software Lab/Block-1 Lab Course/UNIT-6.pdf" target="_blank">UNIT 6</a>
+                        </td>
+                    </tr>
+                </table>
+
+                <!-- BEGLA-136 English at the Workplace -->
+                <table class="course-table" cellpadding="4" cellspacing="0">
+                    <tr class="course-header">
+                        <td colspan="2"><strong>BEGLA-136 English at the Workplace</strong></td>
+                    </tr>
+                    <tr class="block-header">
+                        <td width="40%"><strong>Block</strong></td>
+                        <td><strong>PDF Links</strong></td>
+                    </tr>
+                    <tr>
+                        <td>Block-1</td>
+                        <td><a href="pdfs/1st_Semester/BEGLA-136 English at the Workplace/Block-1.pdf" target="_blank">Complete Block PDF</a></td>
+                    </tr>
+                    <tr>
+                        <td>Block-2</td>
+                        <td><a href="pdfs/1st_Semester/BEGLA-136 English at the Workplace/Block-2.pdf" target="_blank">Complete Block PDF</a></td>
+                    </tr>
+                    <tr>
+                        <td>Block-3</td>
+                        <td><a href="pdfs/1st_Semester/BEGLA-136 English at the Workplace/Block-3.pdf" target="_blank">Complete Block PDF</a></td>
+                    </tr>
+                    <tr>
+                        <td>Block-4</td>
+                        <td><a href="pdfs/1st_Semester/BEGLA-136 English at the Workplace/Block-4.pdf" target="_blank">Complete Block PDF</a></td>
+                    </tr>
+                </table>
+
+                <!-- BEVAE-181 Environmental Studies -->
+                <table class="course-table" cellpadding="4" cellspacing="0">
+                    <tr class="course-header">
+                        <td colspan="2"><strong>BEVAE-181 Environmental Studies</strong></td>
+                    </tr>
+                    <tr class="block-header">
+                        <td width="40%"><strong>Block</strong></td>
+                        <td><strong>PDF Links</strong></td>
+                    </tr>
+                    <tr>
+                        <td>Block1</td>
+                        <td><a href="pdfs/1st_Semester/BEVAE-181 Environmental Studies/Block1.pdf" target="_blank">Complete Block PDF</a></td>
+                    </tr>
+                    <tr>
+                        <td>Block2</td>
+                        <td><a href="pdfs/1st_Semester/BEVAE-181 Environmental Studies/Block2.pdf" target="_blank">Complete Block PDF</a></td>
+                    </tr>
+                    <tr>
+                        <td>Block3</td>
+                        <td><a href="pdfs/1st_Semester/BEVAE-181 Environmental Studies/Block3.pdf" target="_blank">Complete Block PDF</a></td>
+                    </tr>
+                    <tr>
+                        <td>Block4</td>
+                        <td><a href="pdfs/1st_Semester/BEVAE-181 Environmental Studies/Block4.pdf" target="_blank">Complete Block PDF</a></td>
+                    </tr>
+                </table>
+
+                <!-- Directory Information -->
+                <div class="info-box">
+                    <h3>Directory Structure</h3>
+                    <p>The PDFs are organized in the following directory structure:</p>
+                    <pre><code>pdfs/1st_Semester/[Course Name]/[Block Name]/[Unit Name].pdf</code></pre>
+                </div>
+            </td>
+
+            <!-- Sidebar -->
+            <td class="sidebar">
+                <!-- semester1.html sidebar -->
+                 <div class="sidebar-section">
+                    <h3>Site Navigation</h3>
+                    <ul class="nav-list">
+                        <li><a href="index.html">← Back to All Semesters</a></li>
+                        <li><a href="semester2.html">2nd Semester →</a></li>
+                    </ul>
+                </div>
+                <div class="sidebar-section">
+                    <h3>Navigation</h3>
+                    <ul class="nav-list">
+                        <li><a href="#bcsm">BCS-012 Mathematics</a></li>
+                        <li><a href="#bcsc">BCS-111 Computer Basics</a></li>
+                        <li><a href="#bcsl">BCSL-013 Lab</a></li>
+                        <li><a href="#begla">BEGLA-136 English</a></li>
+                        <li><a href="#bevae">BEVAE-181 Env Studies</a></li>
+                    </ul>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td class="footer" colspan="2">
+                BCA PDF Hub – a simple, student-maintained academic index.<br>
+                <span class="footer-sub">&copy; 2026 BCA PDF Hub. All rights reserved.</span>
+            </td>
+        </tr>
+    </table>
+
+    <!-- Script for navigation and adding IDs -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Add IDs to course tables for navigation
+            const courseTables = document.querySelectorAll('.course-table');
+            const courseIds = ['bcsm', 'bcsc', 'bcsl', 'begla', 'bevae'];
+
+            courseTables.forEach((table, index) => {
+                if (index < courseIds.length) {
+                    table.id = courseIds[index];
+                }
+            });
+
+            // Simple navigation
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    const targetId = this.getAttribute('href').substring(1);
+                    const targetElement = document.getElementById(targetId);
+
+                    if (targetElement) {
+                        e.preventDefault();
+                        window.scrollTo({
+                            top: targetElement.offsetTop - 20,
+                            behavior: 'smooth'
+                        });
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BCA PDF Hub - 2nd Semester Academic Index</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Main container -->
+<table class="page-wrapper" cellpadding="0" cellspacing="0">
+        <tr>
+            <td class="header-container" colspan="2">
+                <h1>BCA PDF Hub</h1>
+                <div class="subtitle">Second Semester Academic Resources</div>
+            </td>
+        </tr>
+        <tr>
+            <td class="main-content">
+                <h2>2nd Semester</h2>
+
+                <table class="course-table" id="feg" cellpadding="4" cellspacing="0">
+                    <tr class="course-header">
+                        <td colspan="2"><strong>FEG-02 Foundation Course in English-2</strong></td>
+                    </tr>
+                    <tr class="block-header">
+                        <td width="40%"><strong>Block</strong></td>
+                        <td><strong>Units</strong></td>
+                    </tr>
+                    <tr><td>BLOCK-1</td><td><a href="pdfs/2nd_Semester/FEG-02/BLOCK-1/Unit-1.pdf" target="_blank">U1</a> | <a href="pdfs/2nd_Semester/FEG-02/BLOCK-1/Unit-2.pdf" target="_blank">U2</a> | <a href="pdfs/2nd_Semester/FEG-02/BLOCK-1/Unit-3.pdf" target="_blank">U3</a> | <a href="pdfs/2nd_Semester/FEG-02/BLOCK-1/Unit-4.pdf" target="_blank">U4</a> | <a href="pdfs/2nd_Semester/FEG-02/BLOCK-1/Unit-5.pdf" target="_blank">U5</a> | <a href="pdfs/2nd_Semester/FEG-02/BLOCK-1/Unit-6.pdf" target="_blank">U6</a></td></tr>
+                    <tr><td>BLOCK-2</td><td><a href="pdfs/2nd_Semester/FEG-02/BLOCK-2/Unit-7.pdf" target="_blank">U7</a> | <a href="pdfs/2nd_Semester/FEG-02/BLOCK-2/Unit-8.pdf" target="_blank">U8</a> | <a href="pdfs/2nd_Semester/FEG-02/BLOCK-2/Unit-9.pdf" target="_blank">U9</a> | <a href="pdfs/2nd_Semester/FEG-02/BLOCK-2/Unit-10.pdf" target="_blank">U10</a> | <a href="pdfs/2nd_Semester/FEG-02/BLOCK-2/Unit-11.pdf" target="_blank">U11</a> | <a href="pdfs/2nd_Semester/FEG-02/BLOCK-2/Unit-12.pdf" target="_blank">U12</a></td></tr>
+                    <tr><td>BLOCK-3</td><td><a href="pdfs/2nd_Semester/FEG-02/BLOCK-3/Unit-13.pdf" target="_blank">U13</a> | <a href="pdfs/2nd_Semester/FEG-02/BLOCK-3/Unit-14.pdf" target="_blank">U14</a> | <a href="pdfs/2nd_Semester/FEG-02/BLOCK-3/Unit-15.pdf" target="_blank">U15</a> | <a href="pdfs/2nd_Semester/FEG-02/BLOCK-3/Unit-16.pdf" target="_blank">U16</a> | <a href="pdfs/2nd_Semester/FEG-02/BLOCK-3/Unit-17.pdf" target="_blank">U17</a> | <a href="pdfs/2nd_Semester/FEG-02/BLOCK-3/Unit-18.pdf" target="_blank">U18</a></td></tr>
+                    <tr><td>BLOCK-4</td><td><a href="pdfs/2nd_Semester/FEG-02/BLOCK-4/Unit-19.pdf" target="_blank">U19</a> | <a href="pdfs/2nd_Semester/FEG-02/BLOCK-4/Unit-20.pdf" target="_blank">U20</a> | <a href="pdfs/2nd_Semester/FEG-02/BLOCK-4/Unit-21.pdf" target="_blank">U21</a> | <a href="pdfs/2nd_Semester/FEG-02/BLOCK-4/Unit-22.pdf" target="_blank">U22</a> | <a href="pdfs/2nd_Semester/FEG-02/BLOCK-4/Unit-23.pdf" target="_blank">U23</a> | <a href="pdfs/2nd_Semester/FEG-02/BLOCK-4/Unit-24.pdf" target="_blank">U24</a></td></tr>
+                </table>
+
+                <table class="course-table" id="mcs201" cellpadding="4" cellspacing="0">
+                    <tr class="course-header"><td colspan="2"><strong>MCS-201 Data and File Structures</strong></td></tr>
+                    <tr class="block-header"><td width="40%"><strong>Block</strong></td><td><strong>PDF Links</strong></td></tr>
+                    <tr><td>Block-1 to 4</td><td>
+                        <a href="pdfs/2nd_Semester/MCS-201/Block-1.pdf" target="_blank">Block-1</a> |
+                        <a href="pdfs/2nd_Semester/MCS-201/Block-2.pdf" target="_blank">Block-2</a> |
+                        <a href="pdfs/2nd_Semester/MCS-201/Block-3.pdf" target="_blank">Block-3</a> |
+                        <a href="pdfs/2nd_Semester/MCS-201/Block-4.pdf" target="_blank">Block-4</a>
+                    </td></tr>
+                </table>
+
+                <table class="course-table" id="mcs202" cellpadding="4" cellspacing="0">
+                    <tr class="course-header"><td colspan="2"><strong>MCS-202 Computer Organisation</strong></td></tr>
+                    <tr class="block-header"><td width="40%"><strong>Block</strong></td><td><strong>Units</strong></td></tr>
+                    <tr><td>BLOCK-1</td><td><a href="pdfs/2nd_Semester/MCS-202/BLOCK-1/Unit1.pdf" target="_blank">U1</a> | <a href="pdfs/2nd_Semester/MCS-202/BLOCK-1/Unit-2.pdf" target="_blank">U2</a> | <a href="pdfs/2nd_Semester/MCS-202/BLOCK-1/Unit-3.pdf" target="_blank">U3</a> | <a href="pdfs/2nd_Semester/MCS-202/BLOCK-1/Unit-4.pdf" target="_blank">U4</a></td></tr>
+                    <tr><td>BLOCK-2</td><td><a href="pdfs/2nd_Semester/MCS-202/BLOCK-2/Unit-5.pdf" target="_blank">U5</a> | <a href="pdfs/2nd_Semester/MCS-202/BLOCK-2/Unit-6.pdf" target="_blank">U6</a> | <a href="pdfs/2nd_Semester/MCS-202/BLOCK-2/Unit7.pdf" target="_blank">U7</a> | <a href="pdfs/2nd_Semester/MCS-202/BLOCK-2/Unit8.pdf" target="_blank">U8</a></td></tr>
+                    <tr><td>BLOCK-3</td><td><a href="pdfs/2nd_Semester/MCS-202/BLOCK-3/Unit-9.pdf" target="_blank">U9</a> | <a href="pdfs/2nd_Semester/MCS-202/BLOCK-3/Unit-10.pdf" target="_blank">U10</a> | <a href="pdfs/2nd_Semester/MCS-202/BLOCK-3/Unit-11.pdf" target="_blank">U11</a> | <a href="pdfs/2nd_Semester/MCS-202/BLOCK-3/Unit-12.pdf" target="_blank">U12</a></td></tr>
+                    <tr><td>BLOCK-4</td><td><a href="pdfs/2nd_Semester/MCS-202/BLOCK-4/Unit13.pdf" target="_blank">U13</a> | <a href="pdfs/2nd_Semester/MCS-202/BLOCK-4/Unit14.pdf" target="_blank">U14</a> | <a href="pdfs/2nd_Semester/MCS-202/BLOCK-4/Unit15.pdf" target="_blank">U15</a> | <a href="pdfs/2nd_Semester/MCS-202/BLOCK-4/Unit16.pdf" target="_blank">U16</a></td></tr>
+                </table>
+
+                <table class="course-table" id="mcs203" cellpadding="4" cellspacing="0">
+                    <tr class="course-header"><td colspan="2"><strong>MCS-203 Operating Systems</strong></td></tr>
+                    <tr class="block-header"><td width="40%"><strong>Resource</strong></td><td><strong>PDF Links</strong></td></tr>
+                    <tr><td>Mixed Content</td><td>
+                        <a href="pdfs/2nd_Semester/MCS-203/Unit-1.pdf" target="_blank">Unit-1</a> |
+                        <a href="pdfs/2nd_Semester/MCS-203/BLOCK-1/Unit-2.pdf" target="_blank">Unit-2</a> |
+                        <a href="pdfs/2nd_Semester/MCS-203/BLOCK-1/Unit-3.pdf" target="_blank">Unit-3</a> |
+                        <a href="pdfs/2nd_Semester/MCS-203/BLOCK-1/Unit-4.pdf" target="_blank">Unit-4</a>
+                    </td></tr>
+                    <tr><td>Full Blocks</td><td>
+                        <a href="pdfs/2nd_Semester/MCS-203/Block-2.pdf" target="_blank">Block-2</a> |
+                        <a href="pdfs/2nd_Semester/MCS-203/Block-3.pdf" target="_blank">Block-3</a> |
+                        <a href="pdfs/2nd_Semester/MCS-203/Block-4.pdf" target="_blank">Block-4</a>
+                    </td></tr>
+                </table>
+
+                <table class="course-table" id="labs" cellpadding="4" cellspacing="0">
+                    <tr class="course-header"><td colspan="2"><strong>Practical Labs (MCSL)</strong></td></tr>
+                    <tr class="block-header"><td width="40%"><strong>Course</strong></td><td><strong>Manual</strong></td></tr>
+                    <tr><td>MCSL-204</td><td><a href="pdfs/2nd_Semester/MCSL-204/MCSL-204(English).pdf" target="_blank">Windows and Linux Lab</a></td></tr>
+                    <tr><td>MCSL-205</td><td><a href="pdfs/2nd_Semester/MCSL-205/MCSL-205(English).pdf" target="_blank">C and Python Lab</a></td></tr>
+                </table>
+            </td>
+
+            <!-- Sidebar -->
+            <td class="sidebar">
+                <!-- semester2.html sidebar -->
+<div class="sidebar-section">
+    <h3>Site Navigation</h3>
+    <ul class="nav-list">
+        <li><a href="index.html">← Back to All Semesters</a></li>
+        <li><a href="semester1.html">← 1st Semester</a></li>
+        <li><a href="https://curiosityknowledg.blogspot.com/2026/02/bca-pdf-hub-technical-skills-stack-style.html">Technical Skills Stack →</a></li>
+    </ul>
+</div>
+                <div class="sidebar-section">
+                    <h3>Navigation</h3>
+                    <ul class="nav-list">
+                        <li><a href="#feg">FEG-02 English</a></li>
+                        <li><a href="#mcs201">MCS-201 Data Structures</a></li>
+                        <li><a href="#mcs202">MCS-202 Assembly</a></li>
+                        <li><a href="#mcs203">MCS-203 OS</a></li>
+                        <li><a href="#labs">Practical Labs (MCSL)</a></li>
+                    </ul>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td class="footer" colspan="2">
+                BCA PDF Hub – a simple, student-maintained academic index.<br>
+                <span class="footer-sub">&copy; 2026 BCA PDF Hub. All rights reserved.</span>
+            </td>
+        </tr>
+    </table>
+
+    <!-- Script for navigation and adding IDs -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Add IDs to course tables
+            const courseTables = document.querySelectorAll('.course-table');
+            const courseIds = ['feg', 'mcs201', 'mcs202', 'mcs203', 'mcsl204', 'mcsl205'];
+
+            courseTables.forEach((table, index) => {
+                if (index < courseIds.length) {
+                    table.id = courseIds[index];
+                }
+            });
+
+            // Simple navigation
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    const targetId = this.getAttribute('href').substring(1);
+                    const targetElement = document.getElementById(targetId);
+
+                    if (targetElement) {
+                        e.preventDefault();
+                        window.scrollTo({
+                            top: targetElement.offsetTop - 20,
+                            behavior: 'smooth'
+                        });
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
+/* Modern Academic CSS - BCA PDF Hub */
+
+/* CSS Variables for consistent theming */
+:root {
+    --primary-color: #1e40af;
+    --primary-dark: #1a3a8a;
+    --primary-light: #3b82f6;
+    --secondary-color: #7c3aed;
+    --accent-color: #f59e0b;
+
+    --text-dark: #1f2937;
+    --text-light: #6b7280;
+    --text-lighter: #9ca3af;
+
+    --bg-primary: #ffffff;
+    --bg-secondary: #f9fafb;
+    --bg-tertiary: #f3f4f6;
+
+    --border-color: #e5e7eb;
+    --border-light: #f3f4f6;
+
+    --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+
+    --transition: all 0.3s ease;
+}
+
+/* Base reset for consistency */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, td, th, p, h1, h2, h3, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(135deg, #f3f4f6 0%, #e5e7eb 100%);
+    color: var(--text-dark);
+    font-size: 15px;
+    line-height: 1.6;
+    padding: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    min-height: 100vh;
+}
+
+/* Main page wrapper table */
+.page-wrapper {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: var(--bg-primary);
+    border: none;
+    border-collapse: collapse;
+    box-shadow: var(--shadow-lg);
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+/* Header styling */
+.header-container {
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-dark) 100%);
+    padding: 40px 30px;
+    border-bottom: 3px solid var(--accent-color);
+    box-shadow: var(--shadow-md);
+    position: relative;
+    overflow: hidden;
+}
+
+.header-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 300px;
+    height: 300px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    transform: translate(100px, -100px);
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 8px;
+    position: relative;
+    z-index: 1;
+    letter-spacing: -0.5px;
+}
+
+.subtitle {
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.9);
+    font-style: normal;
+    font-weight: 300;
+    position: relative;
+    z-index: 1;
+}
+
+/* Main content area */
+.main-content {
+    padding: 30px 35px;
+    vertical-align: top;
+    width: 75%;
+    background-color: var(--bg-primary);
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 25px;
+    padding-bottom: 12px;
+    border-bottom: 3px solid var(--primary-light);
+    color: var(--text-dark);
+    letter-spacing: -0.3px;
+}
+
+h3 {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--text-dark);
+}
+
+/* Course tables */
+.course-table {
+    width: 100%;
+    margin-bottom: 30px;
+    border: 1px solid var(--border-color);
+    border-collapse: collapse;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: var(--shadow-sm);
+    transition: var(--transition);
+}
+
+.course-table:hover {
+    box-shadow: var(--shadow-md);
+}
+
+.course-table tr.course-header {
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-light) 100%);
+}
+
+.course-table tr.course-header td {
+    font-size: 16px;
+    padding: 14px 16px;
+    border-bottom: 2px solid var(--primary-dark);
+    color: #ffffff;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+}
+
+.course-table tr.block-header {
+    background-color: var(--bg-tertiary);
+    font-size: 14px;
+}
+
+.course-table tr.block-header td {
+    padding: 10px 16px;
+    border-bottom: 1px solid var(--border-color);
+    font-weight: 600;
+    color: var(--text-dark);
+}
+
+.course-table tr {
+    border-bottom: 1px solid var(--border-light);
+    transition: var(--transition);
+}
+
+.course-table tr:hover {
+    background-color: var(--bg-secondary);
+}
+
+.course-table tr:last-child {
+    border-bottom: none;
+}
+
+.course-table td {
+    padding: 12px 16px;
+    vertical-align: middle;
+    color: var(--text-dark);
+}
+
+/* Links styling */
+a {
+    color: var(--primary-light);
+    text-decoration: none;
+    transition: var(--transition);
+    font-weight: 500;
+}
+
+a:hover {
+    color: var(--primary-dark);
+    text-decoration: underline;
+}
+
+a:focus {
+    outline: 2px solid var(--accent-color);
+    outline-offset: 2px;
+    border-radius: 2px;
+}
+
+/* Sidebar styling */
+.sidebar {
+    width: 25%;
+    padding: 30px 25px;
+    vertical-align: top;
+    background-color: var(--bg-secondary);
+    border-left: 1px solid var(--border-color);
+}
+
+.sidebar-section {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: var(--bg-primary);
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+    box-shadow: var(--shadow-sm);
+}
+
+.sidebar-section h3 {
+    font-size: 15px;
+    margin-bottom: 15px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid var(--primary-light);
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+.nav-list, .notes-list {
+    list-style-type: none;
+    font-size: 14px;
+}
+
+.nav-list li, .notes-list li {
+    margin-bottom: 10px;
+    padding-left: 12px;
+    border-left: 3px solid var(--primary-light);
+    transition: var(--transition);
+}
+
+.nav-list li:hover, .notes-list li:hover {
+    border-left-color: var(--accent-color);
+    padding-left: 16px;
+}
+
+.nav-list a {
+    color: var(--text-dark);
+    font-weight: 500;
+}
+
+.nav-list a:hover {
+    color: var(--primary-color);
+}
+
+.notes-list {
+    padding-left: 0;
+}
+
+.notes-list li {
+    padding-left: 12px;
+}
+
+/* Info box styling */
+.info-box {
+    margin-top: 35px;
+    padding: 20px 24px;
+    border-left: 4px solid var(--accent-color);
+    background-color: var(--bg-secondary);
+    border-radius: 6px;
+    font-size: 14px;
+    border: 1px solid var(--border-color);
+    border-left: 4px solid var(--accent-color);
+}
+
+.info-box h3 {
+    font-size: 15px;
+    margin-bottom: 12px;
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+.info-box p {
+    margin-bottom: 12px;
+    line-height: 1.6;
+    color: var(--text-light);
+}
+
+.info-box code {
+    font-family: 'Menlo', 'Monaco', 'Courier New', monospace;
+    background-color: var(--bg-tertiary);
+    padding: 4px 8px;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    font-size: 13px;
+    color: var(--primary-dark);
+}
+
+.info-box pre {
+    background-color: var(--bg-tertiary);
+    padding: 12px;
+    border-radius: 4px;
+    overflow-x: auto;
+    border: 1px solid var(--border-color);
+}
+
+/* Footer styling */
+.footer {
+    padding: 20px 30px;
+    text-align: center;
+    font-size: 13px;
+    color: var(--text-light);
+    background-color: var(--bg-tertiary);
+    border-top: 2px solid var(--border-color);
+}
+
+.footer-sub {
+    font-size: 12px;
+    color: var(--text-lighter);
+    margin-top: 8px;
+    display: block;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+    .main-content {
+        width: 100%;
+    }
+
+    .sidebar {
+        width: 100%;
+        border-left: none;
+        border-top: 1px solid var(--border-color);
+        margin-top: 20px;
+        padding: 30px 25px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    .header-container {
+        padding: 30px 20px;
+    }
+}
+
+@media (max-width: 800px) {
+    .sidebar {
+        display: none;
+    }
+
+    .main-content {
+        width: 100%;
+        padding: 20px 15px;
+    }
+
+    .page-wrapper {
+        border-radius: 0;
+    }
+
+    body {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .course-table td {
+        padding: 10px 12px;
+    }
+}
+
+/* Print styling */
+@media print {
+    body {
+        background: #fff;
+        padding: 0;
+    }
+
+    .sidebar {
+        display: none;
+    }
+
+    .page-wrapper {
+        box-shadow: none;
+        border-radius: 0;
+    }
+
+    .footer {
+        border-top: 2px solid #000;
+    }
+
+    a {
+        color: #0000cc;
+        text-decoration: underline;
+    }
+
+    .header-container {
+        background: #000;
+        color: #fff;
+    }
+
+    h1, .subtitle {
+        color: #fff;
+    }
+}
+
+/* Home Page - Semester Table */
+.semester-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 25px 0;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: var(--shadow-sm);
+}
+
+.semester-table th, .semester-table td {
+    border-bottom: 1px solid var(--border-color);
+    padding: 14px 16px;
+}
+
+.semester-table th {
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-light) 100%);
+    color: #ffffff;
+    font-weight: 600;
+    text-align: left;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+}
+
+.semester-table tr:hover {
+    background-color: var(--bg-secondary);
+    transition: var(--transition);
+}
+
+.semester-table tr:nth-child(even) {
+    background-color: var(--bg-secondary);
+}
+
+.semester-table a {
+    color: var(--primary-light);
+    font-weight: 600;
+    transition: var(--transition);
+}
+
+.semester-table a:hover {
+    color: var(--primary-dark);
+}
+
+.semester-table a[href="#"] {
+    color: var(--text-lighter);
+    cursor: not-allowed;
+    font-weight: 400;
+}
+
+/* Skills page specific styles */
+.skills-table {
+    width: 100%;
+    margin-bottom: 30px;
+    border: 1px solid var(--border-color);
+    border-collapse: collapse;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: var(--shadow-sm);
+}
+
+.skills-table tr.category-header {
+    background: linear-gradient(135deg, var(--secondary-color) 0%, #8b5cf6 100%);
+}
+
+.skills-table tr.category-header td {
+    font-size: 15px;
+    padding: 14px 16px;
+    border-bottom: 2px solid #7c3aed;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.skills-table tr.skill-header {
+    background-color: var(--bg-tertiary);
+    font-size: 13px;
+}
+
+.skills-table tr.skill-header td {
+    padding: 10px 16px;
+    border-bottom: 1px solid var(--border-color);
+    font-weight: 600;
+    color: var(--text-dark);
+}
+
+.skills-table tr {
+    border-bottom: 1px solid var(--border-light);
+    transition: var(--transition);
+}
+
+.skills-table tr:hover {
+    background-color: var(--bg-secondary);
+}
+
+.skills-table tr:last-child {
+    border-bottom: none;
+}
+
+.skills-table td {
+    padding: 12px 16px;
+    vertical-align: top;
+    line-height: 1.6;
+    color: var(--text-dark);
+}
+
+.skills-table a {
+    color: var(--primary-light);
+    font-weight: 500;
+    font-size: 13px;
+    white-space: nowrap;
+}
+
+.skills-table a:hover {
+    color: var(--primary-dark);
+}
+
+/* Plan table */
+.plan-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    font-size: 14px;
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.plan-table th, .plan-table td {
+    border: 1px solid var(--border-color);
+    padding: 10px 12px;
+    vertical-align: top;
+}
+
+.plan-table th {
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-light) 100%);
+    color: #ffffff;
+    text-align: left;
+    font-weight: 600;
+}
+
+/* Notes box */
+.notes-box {
+    margin-top: 30px;
+    padding: 20px 24px;
+    border-left: 4px solid var(--secondary-color);
+    background-color: var(--bg-secondary);
+    border-radius: 6px;
+    font-size: 14px;
+    border: 1px solid var(--border-color);
+}
+
+.notes-box h3 {
+    font-size: 15px;
+    margin-bottom: 12px;
+    color: var(--secondary-color);
+    font-weight: 600;
+}
+
+.notes-box ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+
+.notes-box li {
+    margin-bottom: 8px;
+    line-height: 1.6;
+    color: var(--text-dark);
+}
+
+.notes-box strong {
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+/* Description paragraph */
+.description {
+    margin-bottom: 20px;
+    color: var(--text-light);
+    line-height: 1.7;
+    font-size: 15px;
+}
+
+/* Navigation note for home page */
+.navigation-note {
+    margin: 20px 0;
+    padding: 16px 20px;
+    background-color: var(--bg-secondary);
+    border-left: 3px solid var(--accent-color);
+    border-radius: 4px;
+    font-size: 14px;
+    color: var(--text-light);
+    border: 1px solid var(--border-color);
+}
+
+/* Utility classes */
+.text-center {
+    text-align: center;
+}
+
+.mt-large {
+    margin-top: 30px;
+}
+
+.mb-large {
+    margin-bottom: 30px;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.course-table {
+    animation: fadeIn 0.3s ease;
+}
+
+/* Accessibility improvements */
+:focus-visible {
+    outline: 2px solid var(--accent-color);
+    outline-offset: 2px;
+}
+
+button:focus-visible {
+    outline: 2px solid var(--accent-color);
+    outline-offset: 2px;
+}

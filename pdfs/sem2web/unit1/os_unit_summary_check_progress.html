@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OS Overview: Summary & Check Your Progress – Cornell Notes</title>
+    <!-- Link to external CSS file (style.css) from previous files -->
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <div class="cornell-page">
+        <!-- HEADER -->
+        <div class="header">
+            <h1>🖥️ OS Overview: Unit Summary & Solutions</h1>
+            <div class="meta">
+                <span><strong>Unit:</strong> Introduction to OS & Process Management</span>
+                <span><strong>Sections:</strong> 1.9 Summary & 1.10 Check Your Progress Answers</span>
+                <span><strong>Medium:</strong> English (Hindi native)</span>
+            </div>
+        </div>
+
+        <!-- CUES (Left Column) -->
+        <div class="cues">
+            <h2>🧠 Cues & Keywords</h2>
+
+            <div class="cue-item">
+                <div class="cue-question">Unit 1.9 – What is the core summary?</div>
+                <div class="cue-keyword">OS definition, purpose, primary/secondary goals, classification by tasks/users</div>
+            </div>
+            <div class="cue-item">
+                <div class="cue-question">Check Your Progress 1: Three main responsibilities of an OS?</div>
+                <div class="cue-keyword">1. Basic tasks (keyboard, screen, files, devices); 2. Prevent interference; 3. Software platform</div>
+            </div>
+            <div class="cue-item">
+                <div class="cue-question">Check Your Progress 2: Different views of the OS?</div>
+                <div class="cue-keyword">Scheduler/Allocator, Virtual Machine, Multiplexer</div>
+            </div>
+            <div class="cue-item">
+                <div class="cue-question">Check Your Progress 2: Define Batch, Time Sharing, Real Time?</div>
+                <div class="cue-keyword">Batch: series of jobs, no interaction; Time Sharing: multiple interactive users; Real Time: guaranteed response for control systems</div>
+            </div>
+            <div class="cue-item">
+                <div class="cue-question">Check Your Progress 3: Advantage & limitation of multi‑user OS?</div>
+                <div class="cue-keyword">Advantage: cost sharing, better resource usage; Limitation: performance degrades with users, higher hardware/software cost</div>
+            </div>
+            <div class="cue-item">
+                <div class="cue-question">Check Your Progress 3: Multi‑tasking OS advantage & disadvantage?</div>
+                <div class="cue-keyword">Advantage: run multiple programs simultaneously, increased productivity; Disadvantage: more memory required</div>
+            </div>
+            <div class="cue-item">
+                <div class="cue-question">Check Your Progress 3: Describe an OS for a home alarm system?</div>
+                <div class="cue-keyword">Initialisation (reset/test sensors), continuous monitoring loop, alarm generation on state change</div>
+            </div>
+        </div>
+
+        <!-- NOTES (Right Column) -->
+        <div class="notes">
+            <h2>📘 1.9 Summary & 1.10 Solutions / Answers</h2>
+
+            <!-- 1.9 SUMMARY -->
+            <div class="note-section">
+                <h3>1.9 Unit Summary</h3>
+                <p>This unit presented the principle operation of an operating system. It briefly described the history, generations, and types of operating systems.</p>
+                <div class="definition">
+                    <p><strong>Operating System:</strong> A program that acts as an interface between a user of a computer and the computer hardware. Its purpose is to provide an environment in which a user may execute programs.</p>
+                </div>
+                <p><strong>Primary goal:</strong> Make the computer convenient to use.</p>
+                <p><strong>Secondary goal:</strong> Use the hardware in an efficient manner.</p>
+                <p>Operating systems may be classified by how many tasks they can perform "simultaneously" (single‑task or multi‑task) and by how many users can use the system "simultaneously" (single‑user or multi‑user). A multi‑user system must be multi‑tasking.</p>
+                <p><em>The next unit will discuss the concept of processes and their management by the OS.</em></p>
+            </div>
+
+            <!-- 1.10 SOLUTIONS/ANSWERS -->
+            <div class="note-section">
+                <h3>1.10 Solutions / Answers – Check Your Progress</h3>
+
+                <!-- Check Your Progress 1 -->
+                <h3>✅ Check Your Progress 1</h3>
+                <div class="highlight-box">
+                    <p><strong>Question 1:</strong> The most important type of system software is the operating system. An operating system has three main responsibilities:</p>
+                    <ol>
+                        <li><strong>Perform basic tasks:</strong> Recognising input from the keyboard, sending output to the display screen, keeping track of files and directories on the disk, and controlling peripheral devices such as disk drives and printers.</li>
+                        <li><strong>Ensure non‑interference:</strong> Ensure that different programs and users running at the same time do not interfere with each other.</li>
+                        <li><strong>Provide a software platform:</strong> Provide a software platform on top of which other programs (application software) can run.</li>
+                    </ol>
+                    <p>The first two responsibilities address the need for managing the computer hardware and the application programs that use the hardware. The third responsibility focuses on providing an interface between application software and hardware so that application software can be efficiently developed. Since the operating system is already responsible for managing the hardware, it should provide a programming interface for application developers.</p>
+                </div>
+
+                <!-- Check Your Progress 2 -->
+                <h3>✅ Check Your Progress 2</h3>
+                <div class="highlight-box">
+                    <p><strong>Question 1: The following are the different views of the operating system.</strong></p>
+                    <p><strong>As a scheduler/allocator:</strong></p>
+                    <ul>
+                        <li>The operating system has resources for which it is in charge.</li>
+                        <li>Responsible for handing them out (and later recovering them).</li>
+                        <li>Resources include CPU, memory, I/O devices, and disk space.</li>
+                    </ul>
+                    <p><strong>As a virtual machine:</strong></p>
+                    <ul>
+                        <li>Operating system provides a “new” machine.</li>
+                        <li>This machine could be the same as the underlying machine. Allows many users to believe they have an entire piece of hardware to themselves.</li>
+                        <li>This could implement a different, perhaps more powerful, machine. Or just a different machine entirely. It may be useful to be able to completely simulate another machine with your current hardware.</li>
+                    </ul>
+                    <p><strong>As a multiplexer:</strong></p>
+                    <ul>
+                        <li>Allows sharing of resources, and provides protection from interference.</li>
+                        <li>Provides for a level of cooperation between users.</li>
+                        <li>Economic reasons: we have to take turns.</li>
+                    </ul>
+                </div>
+
+                <div class="highlight-box">
+                    <p><strong>Question 2: Definitions of processing strategies</strong></p>
+                    <p><strong>Batch Processing:</strong> This strategy involves reading a series of jobs (called a batch) into the machine and then executing the programs for each job in the batch. This approach does <strong>not</strong> allow users to interact with programs while they operate.</p>
+                    <p><strong>Time Sharing:</strong> This strategy supports multiple interactive users. Rather than preparing a job for execution ahead of time, users establish an interactive session with the computer and then provide commands, programs and data as they are needed during the session.</p>
+                    <p><strong>Real Time:</strong> This strategy supports real‑time and process control systems. These are the types of systems which control satellites, robots, and air‑traffic control. The dedicated strategy must guarantee certain response times for particular computing tasks or the application is useless.</p>
+                </div>
+
+                <!-- Check Your Progress 3 -->
+                <h3>✅ Check Your Progress 3</h3>
+                <div class="highlight-box">
+                    <p><strong>Question 1: Advantage and limitation of a multi‑user operating system</strong></p>
+                    <p><strong>Advantage:</strong> Normally the hardware is very expensive, and a multi‑user OS lets a number of users share this expensive resource. This means the cost is divided amongst the users. It also makes better use of the resources. Since the resources are shared, they are more likely to be in use than sitting idle being unproductive.</p>
+                    <p><strong>Limitation:</strong> As more users access the system, the performance becomes slower and slower. Another limitation is the cost of hardware, as a multi‑user operating system requires a lot of disk space and memory. In addition, the actual software for multi‑user operating systems tends to cost more than single‑user operating systems.</p>
+                </div>
+
+                <div class="highlight-box">
+                    <p><strong>Question 2: Advantage and disadvantage of a multi‑tasking operating system</strong></p>
+                    <p>A multi‑tasking operating system provides the ability to run more than one program at once. For example, a user could be running a word processing package, printing a document, copying files to the floppy disk and backing up selected files to a tape unit. Each of these tasks the user is doing appears to be running at the same time.</p>
+                    <p><strong>Advantage:</strong> Lets the user run more than one task at once, so this leads to increased productivity.</p>
+                    <p><strong>Disadvantage:</strong> The more programs that are run by the user, the more memory is required.</p>
+                </div>
+
+                <div class="highlight-box">
+                    <p><strong>Question 3: An operating system for a security control system (e.g., home alarm system)</strong></p>
+                    <p>It would consist of a number of programs. One of these programs would gain control of the computer system when it is powered on, and initialise the system.</p>
+                    <ul>
+                        <li>The first task of this initialise program would be to reset (and probably test) the hardware sensors and alarms.</li>
+                        <li>Once the hardware initialisation was complete, the operating system would enter a continual monitoring routine of all the input sensors.</li>
+                        <li>If the state of any input sensor is changed, it would branch to an alarm generation routine.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- SUMMARY (Bottom) -->
+        <div class="summary">
+            <h2>📋 Final Recap of Unit 1 Summary & Check Your Progress</h2>
+            <p>
+                The unit defines an operating system as an interface between user and hardware, with primary goal convenience and secondary goal efficient hardware usage.
+                OS can be single‑user / multi‑user and single‑tasking / multi‑tasking; multi‑user implies multi‑tasking.
+                Check Your Progress 1 outlines three core OS responsibilities: basic hardware management, preventing interference, and providing a platform for applications.
+                Check Your Progress 2 explains the OS as a scheduler/allocator, virtual machine, and multiplexer; and distinguishes batch (no interaction), time‑sharing (interactive), and real‑time (guaranteed response) processing.
+                Check Your Progress 3 covers multi‑user OS advantages (cost/resource sharing) and limitations (performance, higher hardware/software cost), multi‑tasking benefits (productivity) and drawbacks (memory consumption), and describes a simple alarm OS that initialises sensors then monitors them continuously, triggering alarms on state change.
+                All answers are provided in full detail, suitable for exam questions of 3–10 marks.
+            </p>
+        </div>
+    </div>
+</body>
+</html>
